@@ -7,7 +7,6 @@
     "declarationMap": true,
     "downlevelIteration": true,
     "forceConsistentCasingInFileNames": true,
-    "lib": ["es2017"],
     "module": "commonjs",
     "noImplicitAny": false,
     "noImplicitReturns": true,
@@ -15,11 +14,11 @@
     "noUnusedParameters": true,
     "outDir": "lib",
     "pretty": true,
-    "rootDir": "src",
+    "rootDir": ".",
     "sourceMap": true,
     "strict": true,
-    "strictNullChecks": true,
-    "target": "es2017"
+    "strictNullChecks": true
   },
-  "files": ["./src/index.ts"]
+  "include": ["./src/**/*.ts"],
+  "exclude": ["test/**/*.ts"]
 }

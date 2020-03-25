@@ -32,7 +32,9 @@
     "editorconfig",
     "prettierignore",
     "prettierrc",
+    "promisify",
     "releaserc",
-    "ridedott"
+    "ridedott",
+    "tses"
   ]
 }

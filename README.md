@@ -1,6 +1,6 @@
-# {package_name}
+# eslint-plugin
 
-[![GitHub Actions Status](https://github.com/ridedott/npm-package-template/workflows/Continuous%20Integration/badge.svg?branch=master)](https://github.com/ridedott/npm-package-template/actions)
+[![GitHub Actions Status](https://github.com/ridedott/eslint-plugin/workflows/Continuous%20Integration/badge.svg?branch=master)](https://github.com/ridedott/eslint-plugin/actions)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
@@ -8,7 +8,20 @@
 
 ## Usage
 
-<!--  -->
+### Basic setup
+
+To use this plugin, install it as a `devDependency` first, alongside ESLint
+itself:
+
+```bash
+npm install --save-dev @ridedott/eslint-plugin eslint
+```
+
+## Rules
+
+| Rule                             | Description                                            | Configurations   | Fixable |
+| -------------------------------- | ------------------------------------------------------ | ---------------- | ------- |
+| [no-single-line-comment-block][] | Single line comments should not be in a block comment. | ![recommended][] |         |
 
 ## Getting Started
 
@@ -22,7 +35,7 @@ consume this package in your project.
 
 Minimal requirements to set up the project:
 
-- [Node.js](https://nodejs.org/en) v10, installation instructions can be found
+- [Node.js](https://nodejs.org/en) v12, installation instructions can be found
   on the official website, a recommended installation option is to use
   [Node Version Manager](https://github.com/creationix/nvm#readme). It can be
   installed in a
@@ -36,17 +49,17 @@ Minimal requirements to set up the project:
 Start by cloning the repository:
 
 ```bash
-git clone git@github.com:ridedott/[package-name].git
+git clone git@github.com:ridedott/eslint-plugin.git
 ```
 
 In case you don't have a git client, you can get the latest version directly by
-using [this link](https://github.com/ridedott/[package-name]/archive/master.zip)
+using [this link](https://github.com/ridedott/eslint-plugin/archive/master.zip)
 and extracting the downloaded archive.
 
 Go the the right directory and install dependencies:
 
 ```bash
-cd [package-name]
+cd eslint-plugin
 npm install
 ```
 
@@ -111,3 +124,6 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md).
 ## Versioning
 
 This project adheres to [Semantic Versioning](http://semver.org) v2.
+
+[no-single-line-comment-block]: docs/rules/no-single-line-comment-block.md
+[recommended]: https://img.shields.io/badge/-recommended-blueviolet.svg

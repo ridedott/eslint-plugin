@@ -4,11 +4,16 @@
       "path": "cz-conventional-changelog"
     }
   },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/experimental-utils": "^2.25.0",
+    "@typescript-eslint/parser": "^2.25.0"
+  },
   "description": "npm package template",
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "@ridedott/eslint-config": "^1.0.1",
+    "@ridedott/eslint-config": "^1.0.14",
     "@types/jest": "^25.1.4",
     "@types/node": "^13.9.4",
     "commitizen": "^4.0.3",
@@ -47,7 +52,7 @@
     ]
   },
   "main": "lib/index.js",
-  "name": "@ridedott/npm-package-template",
+  "name": "@ridedott/eslint-plugin",
   "private": false,
   "publishConfig": {
     "access": "restricted",
@@ -55,7 +60,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ridedott/npm-package-template.git"
+    "url": "git@github.com:ridedott/eslint-plugin.git"
   },
   "scripts": {
     "build": "run-s clean build:*",

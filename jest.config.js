@@ -1,5 +1,5 @@
 module.exports = {
-  coveragePathIgnorePatterns: ['/node_modules/', '/test/'],
+  coveragePathIgnorePatterns: ['/node_modules/'],
   coverageReporters: ['lcov', 'text', 'text-summary'],
   coverageThreshold: {
     global: {
@@ -11,6 +11,6 @@ module.exports = {
   },
   preset: 'ts-jest',
   resetMocks: true,
-  roots: ['<rootDir>/src'],
+  roots: ['<rootDir>'],
   testEnvironment: 'node',
 };

@@ -1,0 +1,42 @@
+/* eslint-disable unicorn/filename-case */
+import { TSESLint } from '@typescript-eslint/experimental-utils';
+
+import rule from '../../src/rules/no-single-line-comment-block';
+
+const ruleTester = new TSESLint.RuleTester();
+
+ruleTester.run('no-single-line-comment-block', rule, {
+  invalid: [
+    {
+      code: '/*\n* Only one line in this block\n*/',
+      errors: [
+        {
+          column: 1,
+          endColumn: 3,
+          messageId: 'useSingleLineNotation',
+        },
+      ],
+    },
+    {
+      code: '/* Only one line in this block (single line) */',
+      errors: [
+        {
+          column: 1,
+          endColumn: 48,
+          messageId: 'useSingleLineNotation',
+        },
+      ],
+    },
+  ],
+  valid: [
+    '/*\n* Two lines\n* in this block\n*/',
+    '/**\n* One line JSDoc block\n*/',
+    '/* eslint-disable no-warning-comments */',
+    '/* eslint-enable no-warning-comments */',
+    '/* eslint-disable-next-line no-warning-comments */',
+    '/* eslint-enable-next-line no-warning-comments */',
+    '/* global var1, var2 */',
+    '/* eslint-env node */',
+    '// Only one line in comment notation',
+  ],
+});

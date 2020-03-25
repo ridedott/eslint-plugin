@@ -2,7 +2,23 @@ env:
   es6: true
   node: true
 extends: '@ridedott/eslint-config'
+overrides:
+  - env:
+      jest: true
+    files:
+      - test/**.ts
+    rules:
+      '@typescript-eslint/no-magic-numbers': off
+      unicorn/no-unsafe-regex: off
+      unicorn/filename-case: off
+  - files:
+      - src/rules/**
+    rules:
+      unicorn/filename-case: off
+      unicorn/prevent-abbreviations: off
+      sort-keys: 0
+
 parserOptions:
-  ecmaVersion: 10
+  ecmaVersion: 2020
   project: tsconfig.json
   sourceType: module
