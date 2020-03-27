@@ -37,6 +37,7 @@ jobs:
         with:
           release-branches: viestat/debug-release-me
           node-module: true
+          dry-run: true
       - name: Debug release-me
         if: steps.build_package.outputs.released == 'false'
         run: echo Debug!!
