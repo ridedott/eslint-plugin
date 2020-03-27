@@ -54,10 +54,6 @@
   "main": "lib/index.js",
   "name": "@ridedott/eslint-plugin",
   "private": false,
-  "publishConfig": {
-    "access": "restricted",
-    "registry": "https://npm.pkg.github.com"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:ridedott/eslint-plugin.git"
