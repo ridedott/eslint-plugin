@@ -3,7 +3,7 @@ name: Continuous Delivery
 on:
   push:
     branches:
-      - master
+      - viestat/debug-release-me
 
 jobs:
   release:
@@ -32,10 +32,16 @@ jobs:
       - env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN_DOTTBOTT }}
         name: Release
+        id: build_package
         uses: ridedott/release-me-action@master
         with:
+          release-branches: viestat/debug-release-me
           node-module: true
+      - name: Debug release-me
+        if: steps.build_package.outputs.released == 'false'
+        run: echo Debug!!
       - name: Setup Node.js
+        if: steps.build_package.outputs.released == 'true'
         uses: actions/setup-node@v1
         with:
           registry-url: 'https://npm.pkg.github.com'
@@ -44,6 +50,7 @@ jobs:
         name: Publish to GitHub Packages
         run: npm publish
       - name: Setup Node.js
+        if: steps.build_package.outputs.released == 'true'
         uses: actions/setup-node@v1
         with:
           registry-url: 'https://registry.npmjs.org'
