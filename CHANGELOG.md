@@ -1,3 +1,20 @@
+# 1.0.0 (2020-03-27)
+
+### Bug Fixes
+
+- change continuous delivery workflow
+  ([eda195a](https://github.com/ridedott/eslint-plugin/commit/eda195a1b6f41d051eabcd7296e9bf99e0aec7e1))
+
+### Features
+
+- add no-single-line-comment-block rule
+  ([13883f2](https://github.com/ridedott/eslint-plugin/commit/13883f221cbfa48e7efa2514f8a81b260d9d7298))
+
+### Other
+
+- Initial commit
+  ([d44182a](https://github.com/ridedott/eslint-plugin/commit/d44182a4798964e230fadfd3cf921381acaa5e66))
+
 ## [1.0.88](https://github.com/ridedott/npm-package-template/compare/v1.0.87...v1.0.88) (2020-03-25)
 
 ### Chores
