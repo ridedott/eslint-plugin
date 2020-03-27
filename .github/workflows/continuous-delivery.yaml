@@ -23,9 +23,7 @@ jobs:
       - name: Cache dependencies
         uses: actions/cache@v1
         with:
-          key:
-            npm-${{ hashFiles(format('{0}{1}', github.workspace,
-            '/package-lock.json')) }}
+          key: npm-${{ hashFiles('package-lock.json') }}
           path: ~/.npm
           restore-keys: |
             npm-
@@ -33,6 +31,24 @@ jobs:
         run: npm ci --ignore-scripts --no-audit --no-progress --prefer-offline
       - env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN_DOTTBOTT }}
-          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN_DOTTBOTT }}
         name: Release
-        uses: ridedott/publish-me-action@master
+        uses: ridedott/release-me-action@master
+        with:
+          node-module: true
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          registry-url: 'https://npm.pkg.github.com'
+      - env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        name: Publish to GitHub Packages
+        run: npm publish
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          registry-url: 'https://registry.npmjs.org'
+          scope: '@ridedott'
+      - env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        name: Publish to npm
+        run: npm publish
