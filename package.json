@@ -15,7 +15,7 @@
     "@commitlint/config-conventional": "^8.3.4",
     "@ridedott/eslint-config": "^1.0.18",
     "@types/jest": "^25.1.4",
-    "@types/node": "^13.9.6",
+    "@types/node": "^13.9.7",
     "commitizen": "^4.0.3",
     "cspell": "^4.0.55",
     "eslint": "^6.8.0",
