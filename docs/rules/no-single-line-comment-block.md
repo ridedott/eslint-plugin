@@ -3,7 +3,9 @@
 Block comments should be used for JSDoc notation and multiline comments only.
 Every comment that is just in one line should use line comment notation instead.
 
-This rule ignores special cases for `eslint` configuration.
+This rule ignores special cases for `eslint` configuration. Other cases can be
+ignored using either `ignore` (for start patterns) or `ignorePatterns` (for
+custom patterns).
 
 ## Rule Details
 
@@ -43,6 +45,61 @@ Examples of **correct** code for this rule:
 
 // Only one line in comment notation
 ```
+
+## Options
+
+```JSON
+{
+  "@ridedott/no-single-line-comment-block": [
+    "error",
+    {
+      "ignore": ["cspell"],
+      "ignorePatterns": "(endPattern)$"
+    }
+  ]
+}
+```
+
+### `ignore`
+
+This array option whitelists strings with which the comment **starts** so that
+this rule does not report their usage as being incorrect.
+
+Example of correct code for the `{ "ignore": ["someStartPattern"] }` option:
+
+```js
+/* eslint @ridedott/no-single-line-comment-block: ["error", { "ignore": ["someStartPattern"] }] */
+
+/* someStartPattern will be a valid single line block. */
+```
+
+By default, this option is set to `{ "ignore": [] }`.
+
+### `ignorePatterns`
+
+This array option whitelists patterns with which the comment complies so that
+this rule does not report their usage as being incorrect.
+
+Please note that this option takes only the patterns to construct a full Regular
+Expression. The flags used in the constructed regular expression are:
+
+- `/g`: Global.
+- `/m`: Multiline.
+- `/u`: Unicode.
+
+Example of correct code for the
+`{ "ignorePatterns": ["(?:EndPattern)(?: |)$"] }` option:
+
+```js
+/* eslint @ridedott/no-single-line-comment-block: ["error", { "ignorePatterns": ["(?:EndPattern)(?: |)$"] }] */
+
+/* will be a valid single line block with EndPattern */
+```
+
+> The resulting regular expression used for the given pattern would be
+> `/(?:EndPattern)(?: |)$/gmu`.
+
+By default, this option is set to `{ "ignorePatterns": [] }`.
 
 ## When Not To Use It
 
