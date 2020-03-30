@@ -27,6 +27,27 @@ ruleTester.run('no-single-line-comment-block', rule, {
         },
       ],
     },
+    {
+      code: '/* cspell:ignore this */',
+      errors: [
+        {
+          column: 1,
+          endColumn: 25,
+          messageId: 'useSingleLineNotation',
+        },
+      ],
+    },
+    {
+      code: '/* should fail as it ends with cspell:ignore this */',
+      errors: [
+        {
+          column: 1,
+          endColumn: 53,
+          messageId: 'useSingleLineNotation',
+        },
+      ],
+      options: [{ ignore: ['cspell'], ignorePatterns: [] }],
+    },
   ],
   valid: [
     '/*\n* Two lines\n* in this block\n*/',
@@ -38,5 +59,13 @@ ruleTester.run('no-single-line-comment-block', rule, {
     '/* global var1, var2 */',
     '/* eslint-env node */',
     '// Only one line in comment notation',
+    {
+      code: '/* cspell:ignore this */',
+      options: [{ ignore: ['cspell'], ignorePatterns: [] }],
+    },
+    {
+      code: '/* custom RegExp */',
+      options: [{ ignore: [], ignorePatterns: ['(?:RegExp)(?: |)$'] }],
+    },
   ],
 });
