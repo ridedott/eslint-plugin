@@ -79,7 +79,7 @@ export default createRule({
     /* eslint-disable @typescript-eslint/typedef */
     context,
     /* eslint-enable @typescript-eslint/typedef */
-    [{ ignore = [], ignorePatterns = [] }]: Array<{
+    [{ ignore, ignorePatterns }]: Array<{
       ignore: string[];
       ignorePatterns: string[];
     }>,

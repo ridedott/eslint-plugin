@@ -46,7 +46,7 @@ ruleTester.run('no-single-line-comment-block', rule, {
           messageId: 'useSingleLineNotation',
         },
       ],
-      options: [{ ignore: ['cspell'], ignorePatterns: [] }],
+      options: [{ ignore: ['cspell'], ignorePatterns: ['(?:RegExp)(?: |)$'] }],
     },
   ],
   valid: [
