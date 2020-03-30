@@ -1,3 +1,34 @@
+# [1.1.0](https://github.com/ridedott/eslint-plugin/compare/v1.0.0...v1.1.0) (2020-03-30)
+
+### Chores
+
+- **deps-dev:** bump @ridedott/eslint-config from 1.0.14 to 1.0.16
+  ([c6e42a4](https://github.com/ridedott/eslint-plugin/commit/c6e42a41d417954c73c5f56f2fc138ed332a876a))
+- **deps-dev:** bump @types/node from 13.9.4 to 13.9.5
+  ([08cbd2f](https://github.com/ridedott/eslint-plugin/commit/08cbd2f0be4c29012b92a0d91646ef68c4f767ec))
+- **deps-dev:** bump jest from 25.1.0 to 25.2.3
+  ([5e23d6f](https://github.com/ridedott/eslint-plugin/commit/5e23d6fc37a6e0d510537448f6f581fb0a7ce78f))
+- **deps-dev:** bump jest from 25.2.3 to 25.2.4
+  ([856011c](https://github.com/ridedott/eslint-plugin/commit/856011c712e1107ace997edd7ec8c81a543cbb08))
+- **deps-dev:** bump lint-staged from 10.0.10 to 10.1.0
+  ([15e6a25](https://github.com/ridedott/eslint-plugin/commit/15e6a252d7c4235784a7c6ac950853abde06997a))
+- **deps-dev:** bump lint-staged from 10.0.9 to 10.0.10
+  ([8c36302](https://github.com/ridedott/eslint-plugin/commit/8c3630255309329bf4091d0ab5d8f6a0eca3f9d6))
+- **deps-dev:** bump ts-jest from 25.2.1 to 25.3.0
+  ([b494b20](https://github.com/ridedott/eslint-plugin/commit/b494b20329e1e842b076a0981da1f748ee3cc9e5))
+- clean up package.json
+  ([a8cccf7](https://github.com/ridedott/eslint-plugin/commit/a8cccf7afbab87925224d144a2f728639c57f47a))
+
+### Continuous Integration
+
+- add pre-release step in ci
+  ([4a3f9bb](https://github.com/ridedott/eslint-plugin/commit/4a3f9bb3eb8a96b6d1c1c81aa46af978501af2ea))
+
+### Features
+
+- enable configuration options for no-single-line-comment-block rule
+  ([ffdb071](https://github.com/ridedott/eslint-plugin/commit/ffdb071b0706452de91816017b737a5d47910af7))
+
 # 1.0.0 (2020-03-27)
 
 ### Bug Fixes
