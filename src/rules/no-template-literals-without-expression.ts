@@ -53,13 +53,7 @@ export default createRule({
         const hasNoExpressions = node.expressions.length === 0;
         const isMultiline = node.loc.start.line !== node.loc.end.line;
 
-        const ruleFixer = (
-          fixer: TSESLint.RuleFixer,
-        ): TSESLint.RuleFix[] | null => {
-          if (valueHasDoubleQuotes === true && valueHasSingleQuotes === true) {
-            return null;
-          }
-
+        const ruleFixer = (fixer: TSESLint.RuleFixer): TSESLint.RuleFix[] => {
           if (valueHasSingleQuotes === true) {
             return [
               fixer.replaceTextRange([node.range[0], node.range[0] + 1], '"'),

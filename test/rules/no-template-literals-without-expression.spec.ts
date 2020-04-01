@@ -47,6 +47,7 @@ ruleTester.run('no-template-literals-without-expression', rule, {
   ],
   valid: [
     '`Single line template literal with ${expression}`',
+    '`Single line template literal with \'", ${expression}\'"`',
     '`Multiline template literal\nwith ${expression}`',
     '`Single line template literal without expressions, \'single quotes\', "double quotes"`',
     {
