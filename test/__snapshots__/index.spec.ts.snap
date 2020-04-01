@@ -8,6 +8,7 @@ Object {
     ],
     "rules": Object {
       "@ridedott/no-single-line-comment-block": "error",
+      "@ridedott/no-template-literals-without-expression": "error",
     },
   },
   "recommended": Object {
@@ -16,6 +17,7 @@ Object {
     ],
     "rules": Object {
       "@ridedott/no-single-line-comment-block": "warn",
+      "@ridedott/no-template-literals-without-expression": "warn",
     },
   },
 }

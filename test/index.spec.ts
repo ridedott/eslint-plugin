@@ -7,7 +7,7 @@ import internalRules = require('../src');
 
 const existsAsync = promisify(exists);
 const ruleNames = Object.keys(internalRules.rules);
-const numberOfRules = 1;
+const numberOfRules = 2;
 
 const allConfigRules = Object.values(internalRules.configs)
   .map(
