@@ -1,3 +1,27 @@
+# [1.2.0](https://github.com/ridedott/eslint-plugin/compare/v1.1.3...v1.2.0) (2020-04-02)
+
+### Chores
+
+- **deps-dev:** bump @ridedott/eslint-config from 1.0.16 to 1.0.18
+  ([8e2cb6a](https://github.com/ridedott/eslint-plugin/commit/8e2cb6a432314559bbd24f5b7bdb464111f956ae))
+- **deps-dev:** bump jest from 25.2.4 to 25.2.6
+  ([09e8d00](https://github.com/ridedott/eslint-plugin/commit/09e8d002ec9a48cd123ce2d0081d33a7c061f79b))
+- **deps-dev:** bump lint-staged from 10.1.0 to 10.1.1
+  ([feb65ed](https://github.com/ridedott/eslint-plugin/commit/feb65ed246fe5c2f86c6634c2f4435a717adadc7))
+- add a license
+  ([f849553](https://github.com/ridedott/eslint-plugin/commit/f849553eef764f192f7deea345b18c91d6d937d6))
+- **deps-dev:** bump @types/node from 13.9.5 to 13.9.6
+  ([3364af0](https://github.com/ridedott/eslint-plugin/commit/3364af09df70bb225bcb57a78eb4a0082e22984f))
+- **deps-dev:** bump @types/node from 13.9.6 to 13.9.7
+  ([20914bc](https://github.com/ridedott/eslint-plugin/commit/20914bc74726f05878789d12d207f8ad82f72e92))
+- **deps-dev:** bump @types/node from 13.9.7 to 13.9.8
+  ([e631294](https://github.com/ridedott/eslint-plugin/commit/e6312947199549b53d9282159799b84460bbe43a))
+
+### Features
+
+- add no-template-literals-without-expression rule
+  ([475e94d](https://github.com/ridedott/eslint-plugin/commit/475e94d5522651383210eb678d6b3d8ceb28e6c7))
+
 ## [1.1.3](https://github.com/ridedott/eslint-plugin/compare/v1.1.2...v1.1.3) (2020-03-30)
 
 ### Chores
