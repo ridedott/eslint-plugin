@@ -11,15 +11,23 @@ multiple lines.
 Examples of **incorrect** code for this rule:
 
 ```js
-`Single line template literal without expressions``Single line template literal without expressions with 'single quotes'``Multiline template literal
+`Single line template literal without expressions`;
+
+`Single line template literal without expressions with 'single quotes'`;
+
+`Multiline template literal
 without expressions`;
 ```
 
 Examples of **correct** code for this rule:
 
 ```js
-`Single line template literal with ${expression}``Multiline template literal
-with ${expression}``Single line template literal without expressions, 'single quotes', "double quotes"`;
+`Single line template literal with ${expression}`;
+
+`Multiline template literal
+with ${expression}`;
+
+`Single line template literal without expressions, 'single quotes', "double quotes"`;
 ```
 
 ## Options
