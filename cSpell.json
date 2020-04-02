@@ -33,6 +33,7 @@
     "prettierignore",
     "prettierrc",
     "promisify",
+    "quasis",
     "releaserc",
     "ridedott",
     "tses"

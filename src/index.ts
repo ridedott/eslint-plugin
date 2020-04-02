@@ -46,6 +46,7 @@ export = {
       plugins: [PREFIX],
       rules: {
         [`${PREFIX}/no-single-line-comment-block`]: 'warn',
+        [`${PREFIX}/no-template-literals-without-expression`]: 'warn',
       },
     },
   },

@@ -19,9 +19,10 @@ npm install --save-dev @ridedott/eslint-plugin eslint
 
 ## Rules
 
-| Rule                             | Description                                            | Configurations   | Fixable |
-| -------------------------------- | ------------------------------------------------------ | ---------------- | ------- |
-| [no-single-line-comment-block][] | Single line comments should not be in a block comment. | ![recommended][] |         |
+| Rule                                        | Description                                                | Configurations   | Fixable  |
+| ------------------------------------------- | ---------------------------------------------------------- | ---------------- | -------- |
+| [no-single-line-comment-block][]            | Single line comments should not be in a block comment.     | ![recommended][] |          |
+| [no-template-literals-without-expression][] | There should not be template literals without expressions. | ![recommended][] | ![fix][] |
 
 ## Getting Started
 
@@ -126,4 +127,7 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md).
 This project adheres to [Semantic Versioning](http://semver.org) v2.
 
 [no-single-line-comment-block]: docs/rules/no-single-line-comment-block.md
+[no-template-literals-without-expression]:
+  docs/rules/no-template-literals-without-expression.md
 [recommended]: https://img.shields.io/badge/-recommended-blueviolet.svg
+[fix]: https://img.shields.io/badge/-fix-yellow.svg
