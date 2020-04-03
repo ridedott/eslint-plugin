@@ -32,8 +32,7 @@
   },
   "files": [
     "lib",
-    "lib/**/*",
-    "src"
+    "docs"
   ],
   "husky": {
     "hooks": {
