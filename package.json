@@ -31,8 +31,7 @@
     "node": "12"
   },
   "files": [
-    "lib",
-    "src"
+    "lib"
   ],
   "husky": {
     "hooks": {
