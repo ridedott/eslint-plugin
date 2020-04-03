@@ -39,10 +39,14 @@ const { rules, allRules } = readdirSync(rulesDirectory).reduce(
 export = {
   configs: {
     all: {
+      parser: '@typescript-eslint/parser',
+      parserOptions: { sourceType: 'module' },
       plugins: [PREFIX],
       rules: allRules,
     },
     recommended: {
+      parser: '@typescript-eslint/parser',
+      parserOptions: { sourceType: 'module' },
       plugins: [PREFIX],
       rules: {
         [`${PREFIX}/no-single-line-comment-block`]: 'warn',
