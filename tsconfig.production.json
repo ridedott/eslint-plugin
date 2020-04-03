@@ -14,11 +14,12 @@
     "noUnusedParameters": true,
     "outDir": "lib",
     "pretty": true,
+    "resolveJsonModule": true,
     "rootDir": ".",
     "sourceMap": true,
     "strict": true,
     "strictNullChecks": true
   },
-  "include": ["./src/**/*.ts"],
-  "exclude": ["test/**/*.ts"]
+  "exclude": ["test/**/*.ts"],
+  "include": ["./src/**/*.ts"]
 }
