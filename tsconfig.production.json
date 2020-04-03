@@ -4,10 +4,9 @@
     "alwaysStrict": true,
     "charset": "utf-8",
     "declaration": true,
-    // "declarationMap": true,
+    "declarationMap": true,
     "downlevelIteration": true,
     "forceConsistentCasingInFileNames": true,
-    "lib": ["es2020"],
     "module": "commonjs",
     "noImplicitAny": false,
     "noImplicitReturns": true,
@@ -22,5 +21,5 @@
     "strictNullChecks": true
   },
   "exclude": ["test/**/*.ts"],
-  "include": ["./**/*"]
+  "include": ["./src/**/*.ts"]
 }
