@@ -3,6 +3,10 @@
 exports[`rules should export configs that refer to actual rules 1`] = `
 Object {
   "all": Object {
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": Object {
+      "sourceType": "module",
+    },
     "plugins": Array [
       "@ridedott",
     ],
@@ -12,6 +16,10 @@ Object {
     },
   },
   "recommended": Object {
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": Object {
+      "sourceType": "module",
+    },
     "plugins": Array [
       "@ridedott",
     ],
