@@ -24,9 +24,7 @@ jobs:
       - name: Cache dependencies
         uses: actions/cache@v1
         with:
-          key:
-            npm-${{ hashFiles(format('{0}{1}', github.workspace,
-            '/package-lock.json')) }}
+          key: npm-${{ hashFiles('/package-lock.json') }}
           path: ~/.npm
           restore-keys: |
             npm-
@@ -49,9 +47,7 @@ jobs:
       - name: Cache dependencies
         uses: actions/cache@v1
         with:
-          key:
-            npm-${{ hashFiles(format('{0}{1}', github.workspace,
-            '/package-lock.json')) }}
+          key: npm-${{ hashFiles('/package-lock.json') }}
           path: ~/.npm
           restore-keys: |
             npm-
@@ -74,9 +70,7 @@ jobs:
       - name: Cache dependencies
         uses: actions/cache@v1
         with:
-          key:
-            npm-${{ hashFiles(format('{0}{1}', github.workspace,
-            '/package-lock.json')) }}
+          key: npm-${{ hashFiles('/package-lock.json') }}
           path: ~/.npm
           restore-keys: |
             npm-
@@ -99,9 +93,7 @@ jobs:
       - name: Cache dependencies
         uses: actions/cache@v1
         with:
-          key:
-            npm-${{ hashFiles(format('{0}{1}', github.workspace,
-            '/package-lock.json')) }}
+          key: npm-${{ hashFiles('/package-lock.json') }}
           path: ~/.npm
           restore-keys: |
             npm-
@@ -128,9 +120,7 @@ jobs:
       - name: Cache dependencies
         uses: actions/cache@v1
         with:
-          key:
-            npm-${{ hashFiles(format('{0}{1}', github.workspace,
-            '/package-lock.json')) }}
+          key: npm-${{ hashFiles('/package-lock.json') }}
           path: ~/.npm
           restore-keys: |
             npm-
@@ -193,8 +183,8 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         name: Publish to npm
         run: npm publish --tag="dev"
-  auto-merge:
-    name: Auto merge Dependabot updates
+  merge-me:
+    name: Merge me!
     runs-on: ubuntu-latest
     needs:
       - format
@@ -203,7 +193,7 @@ jobs:
       - test
       - types
     steps:
-      - name: Auto merge
-        uses: ridedott/dependabot-auto-merge-action@master
+      - name: Merge me!
+        uses: ridedott/merge-me-action@master
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN_DOTTBOTT }}
