@@ -1,3 +1,29 @@
+## [1.2.3](https://github.com/ridedott/eslint-plugin/compare/v1.2.2...v1.2.3) (2020-04-10)
+
+### Chores
+
+- **deps-dev:** bump @ridedott/eslint-config from 1.0.18 to 1.0.19
+  ([c72ff57](https://github.com/ridedott/eslint-plugin/commit/c72ff57aebffeadf1d4a3a81bb0a9cd00e950e72))
+- **deps-dev:** bump @types/node from 13.11.0 to 13.11.1
+  ([b3cd507](https://github.com/ridedott/eslint-plugin/commit/b3cd50765dfd7ecb7823e35a7114a69fc8fba5b0))
+- **deps-dev:** bump commitizen from 4.0.3 to 4.0.4
+  ([733ccb1](https://github.com/ridedott/eslint-plugin/commit/733ccb1a1efcd72b5fa0f7f93d61a5c5483a70a3))
+- **deps-dev:** bump cspell from 4.0.55 to 4.0.56
+  ([271a2e7](https://github.com/ridedott/eslint-plugin/commit/271a2e738df6506dbdfe682cd499945f1d716f98))
+- **deps-dev:** bump husky from 4.2.3 to 4.2.4
+  ([3f2ffaa](https://github.com/ridedott/eslint-plugin/commit/3f2ffaad2b68f5eeb7f18793c51aa502c1062901))
+- **deps-dev:** bump husky from 4.2.4 to 4.2.5
+  ([67c3ab7](https://github.com/ridedott/eslint-plugin/commit/67c3ab7854194e51674c119ab420cd445742193e))
+- **deps-dev:** bump jest from 25.2.7 to 25.3.0
+  ([69d199a](https://github.com/ridedott/eslint-plugin/commit/69d199aef931082ba51b1c07d91868c2c0cfc434))
+- **deps-dev:** bump lint-staged from 10.1.2 to 10.1.3
+  ([1f22322](https://github.com/ridedott/eslint-plugin/commit/1f22322cc96f7a079a56df6a722f2d05994da9e8))
+
+### Continuous Integration
+
+- enable automated security fixes
+  ([0261485](https://github.com/ridedott/eslint-plugin/commit/02614857efced56f84d4987efb555091c7faa6d8))
+
 ## [1.2.2](https://github.com/ridedott/eslint-plugin/compare/v1.2.1...v1.2.2) (2020-04-06)
 
 ### Chores
