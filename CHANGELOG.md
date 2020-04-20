@@ -1,3 +1,10 @@
+## [1.2.13](https://github.com/ridedott/eslint-plugin/compare/v1.2.12...v1.2.13) (2020-04-20)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 13.13.0 to 13.13.1
+  ([1b966cf](https://github.com/ridedott/eslint-plugin/commit/1b966cfb5391d62b77a15fa78487f988a78386f1))
+
 ## [1.2.12](https://github.com/ridedott/eslint-plugin/compare/v1.2.11...v1.2.12) (2020-04-19)
 
 ### Chores
