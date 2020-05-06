@@ -17,7 +17,7 @@
     "@types/jest": "^25.2.1",
     "@types/node": "^13.13.5",
     "commitizen": "^4.1.2",
-    "cspell": "^4.0.59",
+    "cspell": "^4.0.60",
     "eslint": "^6.8.0",
     "husky": "^4.2.5",
     "jest": "^25.5.4",
