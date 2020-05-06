@@ -32,9 +32,7 @@
   },
   "files": [
     "lib",
-    "docs",
-    "lib/**/*",
-    "src"
+    "docs"
   ],
   "husky": {
     "hooks": {
@@ -53,7 +51,7 @@
       "git add"
     ]
   },
-  "main": "lib/src/index.js",
+  "main": "lib/index.js",
   "name": "@ridedott/eslint-plugin",
   "private": false,
   "repository": {
@@ -73,7 +71,6 @@
     "husky:pre-commit": "run-p spellcheck husky:lint-staged",
     "lint": "eslint --resolve-plugins-relative-to \"./node_modules/@ridedott/eslint-config\" \"**/*.ts\"",
     "lint:fix": "eslint --fix --resolve-plugins-relative-to \"./node_modules/@ridedott/eslint-config\" \"**/*.ts\"",
-    "prepublishOnly": "npm run build",
     "semantic-release": "semantic-release",
     "spellcheck": "cspell \"**/*\"",
     "test": "jest",

@@ -4,7 +4,6 @@
     "alwaysStrict": true,
     "charset": "utf-8",
     "declaration": false,
-    "esModuleInterop": true,
     "declarationMap": false,
     "downlevelIteration": true,
     "forceConsistentCasingInFileNames": true,
@@ -16,11 +15,10 @@
     "outDir": "lib",
     "pretty": true,
     "resolveJsonModule": true,
-    "rootDir": ".",
+    "rootDir": "./src",
     "sourceMap": false,
     "strict": true,
     "strictNullChecks": true
   },
-  "exclude": ["test/**/*.ts"],
-  "include": ["./src/**/*.ts"]
+  "exclude": ["test/**/*.ts"]
 }
