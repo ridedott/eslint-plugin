@@ -1,3 +1,10 @@
+## [1.2.45](https://github.com/ridedott/eslint-plugin/compare/v1.2.44...v1.2.45) (2020-05-07)
+
+### Chores
+
+- **deps-dev:** bump cspell from 4.0.60 to 4.0.61
+  ([475dc3f](https://github.com/ridedott/eslint-plugin/commit/475dc3fb50c094f2a1ef9bbd85169990ec2ecf4d))
+
 ## [1.2.44](https://github.com/ridedott/eslint-plugin/compare/v1.2.43...v1.2.44) (2020-05-06)
 
 ### Chores
