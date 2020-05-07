@@ -30,7 +30,11 @@ describe('rules', (): void => {
     async (rule: string): Promise<void> => {
       expect.assertions(1);
 
-      const documentPath = resolve(__dirname, '../docs/rules', `${rule}.md`);
+      const documentPath = resolve(
+        __dirname,
+        '../documentation/rules',
+        `${rule}.md`,
+      );
       const isDocumented = await existsAsync(documentPath);
 
       expect(isDocumented).toStrictEqual(true);
