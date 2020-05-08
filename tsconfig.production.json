@@ -16,7 +16,7 @@
     "pretty": true,
     "resolveJsonModule": true,
     "rootDir": "./src",
-    "sourceMap": false,
+    "sourceMap": true,
     "strict": true,
     "strictNullChecks": true
   },

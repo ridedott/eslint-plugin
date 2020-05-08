@@ -16,7 +16,11 @@ const { rules, allRules } = readdirSync(rulesDirectory).reduce(
     allRules: {};
     rules: {};
   } => {
-    const { name } = parse(rule);
+    const { name, ext } = parse(rule);
+
+    if (ext !== '.ts' && ext !== '.js') {
+      return parsed;
+    }
 
     return {
       ...parsed,
