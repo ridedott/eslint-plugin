@@ -1,3 +1,122 @@
+## [1.2.61](https://github.com/ridedott/eslint-plugin/compare/v1.2.60...v1.2.61) (2020-05-20)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 14.0.3 to 14.0.4
+  ([702f987](https://github.com/ridedott/eslint-plugin/commit/702f987f3024c1d8fff3f7f0e7e1fb67e6b666cb))
+
+## [1.2.60](https://github.com/ridedott/eslint-plugin/compare/v1.2.59...v1.2.60) (2020-05-19)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 14.0.1 to 14.0.3
+  ([50b7b26](https://github.com/ridedott/eslint-plugin/commit/50b7b26f5926fddae1fe6892a30090f23cf3e5e8))
+
+## [1.2.59](https://github.com/ridedott/eslint-plugin/compare/v1.2.58...v1.2.59) (2020-05-18)
+
+### Chores
+
+- **deps-dev:** bump @types/jest from 25.2.2 to 25.2.3
+  ([c72ace3](https://github.com/ridedott/eslint-plugin/commit/c72ace3bd64b6a9e964ee1eba8d6c66590f9f7e8))
+
+## [1.2.58](https://github.com/ridedott/eslint-plugin/compare/v1.2.57...v1.2.58) (2020-05-18)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/experimental-utils from 2.33.0 to 2.34.0
+  ([ab85e29](https://github.com/ridedott/eslint-plugin/commit/ab85e29bb29ac28e91720980f4c5ccb63864dff9))
+
+## [1.2.57](https://github.com/ridedott/eslint-plugin/compare/v1.2.56...v1.2.57) (2020-05-18)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/parser from 2.33.0 to 2.34.0
+  ([7575a8f](https://github.com/ridedott/eslint-plugin/commit/7575a8f24d3f0616799f6168766dbf293a55843f))
+
+## [1.2.56](https://github.com/ridedott/eslint-plugin/compare/v1.2.55...v1.2.56) (2020-05-18)
+
+### Chores
+
+- **deps-dev:** bump lint-staged from 10.2.2 to 10.2.4
+  ([8513d87](https://github.com/ridedott/eslint-plugin/commit/8513d8785f883ecca5b144c53b18ecf93d8c5a76))
+
+## [1.2.55](https://github.com/ridedott/eslint-plugin/compare/v1.2.54...v1.2.55) (2020-05-16)
+
+### Chores
+
+- **deps-dev:** bump cspell from 4.0.62 to 4.0.63
+  ([1cc058c](https://github.com/ridedott/eslint-plugin/commit/1cc058c719a3feabbed4839dc8887a3d5289acf6))
+
+## [1.2.54](https://github.com/ridedott/eslint-plugin/compare/v1.2.53...v1.2.54) (2020-05-16)
+
+### Chores
+
+- **deps-dev:** bump cspell from 4.0.61 to 4.0.62
+  ([5bffa37](https://github.com/ridedott/eslint-plugin/commit/5bffa37c16bb698bdfce430f9338fbe982db01db))
+
+## [1.2.53](https://github.com/ridedott/eslint-plugin/compare/v1.2.52...v1.2.53) (2020-05-13)
+
+### Chores
+
+- **deps-dev:** bump @types/jest from 25.2.1 to 25.2.2
+  ([e8de49b](https://github.com/ridedott/eslint-plugin/commit/e8de49b80a64278113f2521743d2a451ace6c6d8))
+
+## [1.2.52](https://github.com/ridedott/eslint-plugin/compare/v1.2.51...v1.2.52) (2020-05-13)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 14.0.0 to 14.0.1
+  ([83cd105](https://github.com/ridedott/eslint-plugin/commit/83cd1058e5a06d99a4c1243413b248b7d72c2c49))
+
+## [1.2.51](https://github.com/ridedott/eslint-plugin/compare/v1.2.50...v1.2.51) (2020-05-13)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 13.13.5 to 14.0.0
+  ([c21c58c](https://github.com/ridedott/eslint-plugin/commit/c21c58cbe4dbbde92b25bcf21687c6b72a1fdf44))
+
+## [1.2.50](https://github.com/ridedott/eslint-plugin/compare/v1.2.49...v1.2.50) (2020-05-12)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/parser from 2.32.0 to 2.33.0
+  ([a9991d2](https://github.com/ridedott/eslint-plugin/commit/a9991d2e40e746ce94177fd3b2488a8b56b8cbd7))
+
+## [1.2.49](https://github.com/ridedott/eslint-plugin/compare/v1.2.48...v1.2.49) (2020-05-12)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/experimental-utils from 2.32.0 to 2.33.0
+  ([5452909](https://github.com/ridedott/eslint-plugin/commit/5452909b6fc3acb81d39476f4da72d34c5dbc617))
+
+## [1.2.48](https://github.com/ridedott/eslint-plugin/compare/v1.2.47...v1.2.48) (2020-05-11)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/parser from 2.31.0 to 2.32.0
+  ([199ad7c](https://github.com/ridedott/eslint-plugin/commit/199ad7c6c63a3d3a75703e6a4c4f39bcf0379692))
+
+## [1.2.47](https://github.com/ridedott/eslint-plugin/compare/v1.2.46...v1.2.47) (2020-05-11)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/experimental-utils from 2.31.0 to 2.32.0
+  ([e676b46](https://github.com/ridedott/eslint-plugin/commit/e676b46644de08f34c47c6663810b78a682b8b50))
+
+## [1.2.46](https://github.com/ridedott/eslint-plugin/compare/v1.2.45...v1.2.46) (2020-05-09)
+
+### Chores
+
+- **deps-dev:** bump ts-jest from 25.5.0 to 25.5.1
+  ([def040d](https://github.com/ridedott/eslint-plugin/commit/def040d9756ae8d675336089d61858830dc3a1c1))
+
+## [1.2.45](https://github.com/ridedott/eslint-plugin/compare/v1.2.44...v1.2.45) (2020-05-07)
+
+### Chores
+
+- **deps-dev:** bump cspell from 4.0.60 to 4.0.61
+  ([475dc3f](https://github.com/ridedott/eslint-plugin/commit/475dc3fb50c094f2a1ef9bbd85169990ec2ecf4d))
+
 ## [1.2.44](https://github.com/ridedott/eslint-plugin/compare/v1.2.43...v1.2.44) (2020-05-06)
 
 ### Chores
