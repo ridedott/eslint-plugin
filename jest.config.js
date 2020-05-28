@@ -3,7 +3,7 @@
  * @type {import('@jest/types').Config.InitialOptions}
  */
 module.exports = {
-  coveragePathIgnorePatterns: ['/node_modules/'],
+  coveragePathIgnorePatterns: ['/node_modules/', '<rootDir>/src/util.ts'],
   coverageReporters: ['lcov', 'text', 'text-summary'],
   coverageThreshold: {
     global: {
