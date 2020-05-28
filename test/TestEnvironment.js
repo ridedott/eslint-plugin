@@ -19,8 +19,8 @@ class CustomEnvironment extends NodeEnvironment {
   }
 
   async teardown() {
-    await asyncUnlink(testMapFile);
     await super.teardown();
+    await asyncUnlink(testMapFile);
   }
 
   runScript(script) {
