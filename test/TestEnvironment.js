@@ -7,7 +7,6 @@ const asyncWriteFile = promisify(writeFile);
 const asyncUnlink = promisify(unlink);
 const testMapFile = join(__dirname, '..', 'src', 'rules', 'test.js.map');
 
-
 class CustomEnvironment extends NodeEnvironment {
   constructor(config, context) {
     super(config, context);
