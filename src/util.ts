@@ -1,6 +1,7 @@
-/* eslint-disable new-cap */
-/* eslint-disable @typescript-eslint/no-var-requires */
 /* eslint-disable @typescript-eslint/no-require-imports */
+/* eslint-disable @typescript-eslint/no-var-requires */
+/* eslint-disable new-cap */
+
 import { ESLintUtils } from '@typescript-eslint/experimental-utils';
 import { parse as parsePath } from 'path';
 
@@ -11,7 +12,7 @@ import { parse as parsePath } from 'path';
 const { version } = require('../package.json');
 
 if (typeof version !== 'string') {
-  throw new Error('Version field in package.json is not a string');
+  throw new Error('Version field in package.json is not a string.');
 }
 
 const REPO_URL = 'https://github.com/ridedott/eslint-config';
