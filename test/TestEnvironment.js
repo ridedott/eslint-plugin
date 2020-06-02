@@ -11,16 +11,21 @@ class CustomEnvironment extends NodeEnvironment {
   constructor(config, context) {
     super(config, context);
     this.testPath = context.testPath;
+    this.docblockPragmas = context.docblockPragmas;
   }
 
   async setup() {
-    await asyncWriteFile(testMapFile, 'test map file');
+    if (this.docblockPragmas['test-map-files'] !== undefined) {
+      await asyncWriteFile(testMapFile, 'test map file');
+    }
     await super.setup();
   }
 
   async teardown() {
     await super.teardown();
-    await asyncUnlink(testMapFile);
+    if (this.docblockPragmas['test-map-files'] !== undefined) {
+      await asyncUnlink(testMapFile);
+    }
   }
 
   runScript(script) {

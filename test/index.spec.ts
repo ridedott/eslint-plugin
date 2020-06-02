@@ -1,3 +1,7 @@
+/**
+ * @test-map-files
+ */
+
 /* eslint-disable @typescript-eslint/no-require-imports */
 import { exists } from 'fs';
 import { resolve } from 'path';
