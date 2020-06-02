@@ -3,6 +3,7 @@
  */
 
 /* eslint-disable @typescript-eslint/no-require-imports */
+/* eslint-disable global-require */
 import { exists } from 'fs';
 import { resolve } from 'path';
 import { promisify } from 'util';
@@ -79,4 +80,22 @@ describe('rules', (): void => {
       expect(ruleNames).toContain(ruleName);
     },
   );
+});
+
+describe('util', (): void => {
+  beforeEach((): void => {
+    jest.resetModules();
+  });
+
+  it('should fail if version is not present as a string in package.json', (): void => {
+    expect.assertions(1);
+
+    jest.doMock('../package.json', (): { version: [] } => {
+      return { version: [] };
+    });
+
+    expect((): void => require('../src')).toThrow(
+      'Version field in package.json is not a string.',
+    );
+  });
 });
