@@ -1,3 +1,10 @@
+## [1.2.68](https://github.com/ridedott/eslint-plugin/compare/v1.2.67...v1.2.68) (2020-06-03)
+
+### Chores
+
+- **deps-dev:** bump lint-staged from 10.2.7 to 10.2.8
+  ([78a2c7b](https://github.com/ridedott/eslint-plugin/commit/78a2c7b9a0b62094fb39ea92e3fee06c26015830))
+
 ## [1.2.67](https://github.com/ridedott/eslint-plugin/compare/v1.2.66...v1.2.67) (2020-06-02)
 
 ### Chores
