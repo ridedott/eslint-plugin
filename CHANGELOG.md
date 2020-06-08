@@ -1,3 +1,31 @@
+## [1.2.71](https://github.com/ridedott/eslint-plugin/compare/v1.2.70...v1.2.71) (2020-06-05)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 14.0.10 to 14.0.11
+  ([0c0a8ef](https://github.com/ridedott/eslint-plugin/commit/0c0a8effa8f89415c7f4c8bd93820c2ddc3213c1))
+
+## [1.2.70](https://github.com/ridedott/eslint-plugin/compare/v1.2.69...v1.2.70) (2020-06-04)
+
+### Chores
+
+- **deps-dev:** bump lint-staged from 10.2.8 to 10.2.9
+  ([3f9bbff](https://github.com/ridedott/eslint-plugin/commit/3f9bbffab973b545e99f33d07844faac8b184d00))
+
+## [1.2.69](https://github.com/ridedott/eslint-plugin/compare/v1.2.68...v1.2.69) (2020-06-04)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 14.0.9 to 14.0.10
+  ([874a25d](https://github.com/ridedott/eslint-plugin/commit/874a25dbd36fbfe94a089e7e1c3dd6960f965965))
+
+## [1.2.68](https://github.com/ridedott/eslint-plugin/compare/v1.2.67...v1.2.68) (2020-06-03)
+
+### Chores
+
+- **deps-dev:** bump lint-staged from 10.2.7 to 10.2.8
+  ([78a2c7b](https://github.com/ridedott/eslint-plugin/commit/78a2c7b9a0b62094fb39ea92e3fee06c26015830))
+
 ## [1.2.67](https://github.com/ridedott/eslint-plugin/compare/v1.2.66...v1.2.67) (2020-06-02)
 
 ### Chores
