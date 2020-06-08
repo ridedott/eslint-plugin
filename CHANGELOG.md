@@ -1,3 +1,10 @@
+## [1.2.72](https://github.com/ridedott/eslint-plugin/compare/v1.2.71...v1.2.72) (2020-06-08)
+
+### Continuous Integration
+
+- prevent a release when @ridedott/eslint-config is updated
+  ([fe1f50b](https://github.com/ridedott/eslint-plugin/commit/fe1f50bc2f6d4c276b02b3a9524cf6e46d59abe3))
+
 ## [1.2.71](https://github.com/ridedott/eslint-plugin/compare/v1.2.70...v1.2.71) (2020-06-05)
 
 ### Chores

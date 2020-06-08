@@ -32,6 +32,10 @@ jobs:
       - name: Build
         run: npm run build
       - name: Release
+        # Prevent version bumps of @ridedott/eslint-config from triggering a release.
+        if:
+          contains(github.event.commits[0].message, 'chore(deps-dev)&#58; bump
+          @ridedott/eslint-config') == false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN_DOTTBOTT }}
         id: build_package
