@@ -3,8 +3,8 @@
     "allowSyntheticDefaultImports": true,
     "alwaysStrict": true,
     "charset": "utf-8",
-    "declaration": true,
-    "declarationMap": true,
+    "declaration": false,
+    "declarationMap": false,
     "downlevelIteration": true,
     "forceConsistentCasingInFileNames": true,
     "module": "commonjs",
@@ -14,11 +14,11 @@
     "noUnusedParameters": true,
     "outDir": "lib",
     "pretty": true,
-    "rootDir": ".",
+    "resolveJsonModule": true,
+    "rootDir": "./src",
     "sourceMap": true,
     "strict": true,
     "strictNullChecks": true
   },
-  "include": ["./src/**/*.ts"],
-  "exclude": ["test/**/*.ts"]
+  "include": ["./src"]
 }
