@@ -126,8 +126,9 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 This project adheres to [Semantic Versioning](http://semver.org) v2.
 
-[no-single-line-comment-block]: docs/rules/no-single-line-comment-block.md
+[no-single-line-comment-block]:
+  documentation/rules/no-single-line-comment-block.md
 [no-template-literals-without-expression]:
-  docs/rules/no-template-literals-without-expression.md
+  documentation/rules/no-template-literals-without-expression.md
 [recommended]: https://img.shields.io/badge/-recommended-blueviolet.svg
 [fix]: https://img.shields.io/badge/-fix-yellow.svg

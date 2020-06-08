@@ -16,7 +16,11 @@ const { rules, allRules } = readdirSync(rulesDirectory).reduce(
     allRules: {};
     rules: {};
   } => {
-    const { name } = parse(rule);
+    const { name, ext } = parse(rule);
+
+    if (ext !== '.ts' && ext !== '.js') {
+      return parsed;
+    }
 
     return {
       ...parsed,
@@ -39,10 +43,14 @@ const { rules, allRules } = readdirSync(rulesDirectory).reduce(
 export = {
   configs: {
     all: {
+      parser: '@typescript-eslint/parser',
+      parserOptions: { sourceType: 'module' },
       plugins: [PREFIX],
       rules: allRules,
     },
     recommended: {
+      parser: '@typescript-eslint/parser',
+      parserOptions: { sourceType: 'module' },
       plugins: [PREFIX],
       rules: {
         [`${PREFIX}/no-single-line-comment-block`]: 'warn',
