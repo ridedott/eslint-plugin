@@ -60,6 +60,9 @@ ruleTester.run('no-single-line-comment-block', rule, {
     '/* eslint-env node */',
     '/* c8 ignore next */',
     '/* c8 ignore next 4 */',
+    '/* istanbul ignore next */',
+    '/* istanbul ignore if */',
+    '/* istanbul ignore else */',
     '// Only one line in comment notation',
     {
       code: '/* cspell:ignore this */',

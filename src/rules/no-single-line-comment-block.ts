@@ -22,6 +22,7 @@ const hasSpecialCases = (
     'eslint',
     'global',
     'c8',
+    'istanbul',
   ];
 
   const specialCasesRegExp = new RegExp(
