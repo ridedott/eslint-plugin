@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/ridedott/eslint-plugin/compare/v1.2.74...v1.3.0) (2020-06-09)
+
+### Features
+
+- ignore common directives in no-single-line-comment-block
+  ([5f835b3](https://github.com/ridedott/eslint-plugin/commit/5f835b3e3378056cd40b2210600c76ec1ffb4b21))
+
 ## [1.2.74](https://github.com/ridedott/eslint-plugin/compare/v1.2.73...v1.2.74) (2020-06-09)
 
 ### Chores
