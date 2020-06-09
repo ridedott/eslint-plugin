@@ -21,6 +21,8 @@ const hasSpecialCases = (
     'eslint-env',
     'eslint',
     'global',
+    'c8',
+    'istanbul',
   ];
 
   const specialCasesRegExp = new RegExp(
