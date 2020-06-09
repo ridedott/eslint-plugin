@@ -32,7 +32,7 @@
   },
   "files": [
     "lib",
-    "src"
+    "documentation"
   ],
   "husky": {
     "hooks": {
@@ -79,5 +79,5 @@
     "test:watch": "jest --watch --verbose false",
     "types": "tsc --noEmit"
   },
-  "version": "1.2.72"
+  "version": "1.2.73"
 }

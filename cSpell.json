@@ -28,6 +28,7 @@
     "commitlint",
     "coverallsapp",
     "dependabot",
+    "docblock",
     "dottbott",
     "editorconfig",
     "prettierignore",

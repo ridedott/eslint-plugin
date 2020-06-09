@@ -1,3 +1,10 @@
+## [1.2.73](https://github.com/ridedott/eslint-plugin/compare/v1.2.72...v1.2.73) (2020-06-08)
+
+### Bug Fixes
+
+- add build to release
+  ([2f4a991](https://github.com/ridedott/eslint-plugin/commit/2f4a991d0e70a266038959af8719115bd494ca3a))
+
 ## [1.2.72](https://github.com/ridedott/eslint-plugin/compare/v1.2.71...v1.2.72) (2020-06-08)
 
 ### Continuous Integration
