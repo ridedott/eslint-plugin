@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/ridedott/eslint-plugin/compare/v1.3.1...v1.3.2) (2020-06-10)
+
+### Chores
+
+- **deps-dev:** bump @types/jest from 25.2.3 to 26.0.0
+  ([cfed00b](https://github.com/ridedott/eslint-plugin/commit/cfed00b7e9997dd4462acdffd47d4018cc6a850c))
+
 ## [1.3.1](https://github.com/ridedott/eslint-plugin/compare/v1.3.0...v1.3.1) (2020-06-10)
 
 ### Chores
