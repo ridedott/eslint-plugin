@@ -1,3 +1,10 @@
+## [1.3.5](https://github.com/ridedott/eslint-plugin/compare/v1.3.4...v1.3.5) (2020-06-22)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/config-conventional from 8.3.4 to 9.0.1
+  ([e0e6d4f](https://github.com/ridedott/eslint-plugin/commit/e0e6d4fb02b7dde2da81e39c395e8330f164f22e))
+
 ## [1.3.4](https://github.com/ridedott/eslint-plugin/compare/v1.3.3...v1.3.4) (2020-06-17)
 
 ### Chores
