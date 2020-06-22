@@ -1,3 +1,10 @@
+## [1.3.6](https://github.com/ridedott/eslint-plugin/compare/v1.3.5...v1.3.6) (2020-06-22)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 8.3.5 to 9.0.1
+  ([80e50ec](https://github.com/ridedott/eslint-plugin/commit/80e50ec0e6fb261594dcafabd7015d23b7c3521b))
+
 ## [1.3.5](https://github.com/ridedott/eslint-plugin/compare/v1.3.4...v1.3.5) (2020-06-22)
 
 ### Chores
