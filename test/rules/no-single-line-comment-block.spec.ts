@@ -30,17 +30,6 @@ ruleTester.run('no-single-line-comment-block', rule, {
       output: '// Only one line in this block (single line)',
     },
     {
-      code: '/* cspell:ignore this */',
-      errors: [
-        {
-          column: 1,
-          endColumn: 25,
-          messageId: 'useSingleLineNotation',
-        },
-      ],
-      output: '// cspell:ignore this',
-    },
-    {
       code: '/* should fail as it ends with cspell:ignore this */',
       errors: [
         {
@@ -64,19 +53,23 @@ ruleTester.run('no-single-line-comment-block', rule, {
     },
   ],
   valid: [
-    '/*\n* Two lines\n* in this block\n*/',
-    '/**\n* One line JSDoc block\n*/',
-    '/* eslint-disable no-warning-comments */',
-    '/* eslint-enable no-warning-comments */',
-    '/* eslint-disable-next-line no-warning-comments */',
-    '/* eslint-enable-next-line no-warning-comments */',
-    '/* global var1, var2 */',
-    '/* eslint-env node */',
     '/* c8 ignore next */',
     '/* c8 ignore next 4 */',
-    '/* istanbul ignore next */',
-    '/* istanbul ignore if */',
+    '/* cspell:disable */',
+    '/* cspell:enable */',
+    '/* cspell:ignore */',
+    '/* cspell:words */',
+    '/* eslint-disable no-warning-comments */',
+    '/* eslint-disable-next-line no-warning-comments */',
+    '/* eslint-enable no-warning-comments */',
+    '/* eslint-enable-next-line no-warning-comments */',
+    '/* eslint-env node */',
+    '/* global var1, var2 */',
     '/* istanbul ignore else */',
+    '/* istanbul ignore if */',
+    '/* istanbul ignore next */',
+    '/**\n* One line JSDoc block\n*/',
+    '/*\n* Two lines\n* in this block\n*/',
     '// Only one line in comment notation',
     {
       code: '/* cspell:ignore this */',

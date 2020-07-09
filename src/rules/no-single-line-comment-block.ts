@@ -3,7 +3,6 @@ import {
   TSESLint,
   TSESTree,
 } from '@typescript-eslint/experimental-utils';
-import { RuleFix } from '@typescript-eslint/experimental-utils/dist/ts-eslint';
 
 import { createRule } from '../util';
 
@@ -18,12 +17,13 @@ const hasSpecialCases = (
   ignoreRegex: RegExp[],
 ): boolean => {
   const specialCases = [
+    'c8',
+    'cspell',
     'eslint-disable',
     'eslint-enable',
     'eslint-env',
     'eslint',
     'global',
-    'c8',
     'istanbul',
   ];
 
@@ -113,7 +113,7 @@ export default createRule({
         context.report({
           messageId: 'useSingleLineNotation',
           loc: comment.loc,
-          fix: (fixer: TSESLint.RuleFixer): RuleFix | null => {
+          fix: (fixer: TSESLint.RuleFixer): TSESLint.RuleFix | null => {
             if (
               blockCommentLines.length === MIN_NUMBER_OF_LINES &&
               blockCommentLines[1] !== undefined
