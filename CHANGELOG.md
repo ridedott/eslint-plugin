@@ -1,3 +1,10 @@
+## [1.3.14](https://github.com/ridedott/eslint-plugin/compare/v1.3.13...v1.3.14) (2020-07-09)
+
+### Bug Fixes
+
+- change the repo url to the right one
+  ([c7ed2d9](https://github.com/ridedott/eslint-plugin/commit/c7ed2d9306ba30d5dad1ca00d768500535b1023c))
+
 ## [1.3.13](https://github.com/ridedott/eslint-plugin/compare/v1.3.12...v1.3.13) (2020-07-08)
 
 ### Chores
