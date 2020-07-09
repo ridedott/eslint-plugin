@@ -52,6 +52,16 @@ ruleTester.run('no-single-line-comment-block', rule, {
       options: [{ ignore: ['cspell'], ignorePatterns: ['(?:RegExp)(?: |)$'] }],
       output: '// should fail as it ends with cspell:ignore this',
     },
+    {
+      code: '/*\n* Only one line in this block */',
+      errors: [
+        {
+          column: 1,
+          endColumn: 33,
+          messageId: 'useSingleLineNotation',
+        },
+      ],
+    },
   ],
   valid: [
     '/*\n* Two lines\n* in this block\n*/',
