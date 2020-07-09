@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/ridedott/eslint-plugin/compare/v1.3.14...v1.4.0) (2020-07-09)
+
+### Features
+
+- add autofix for no-single-line-comment-block
+  ([f3083ba](https://github.com/ridedott/eslint-plugin/commit/f3083baf1993d68f309c462f4fa45028c4d165ac))
+
 ## [1.3.14](https://github.com/ridedott/eslint-plugin/compare/v1.3.13...v1.3.14) (2020-07-09)
 
 ### Bug Fixes
