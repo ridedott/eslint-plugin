@@ -15,7 +15,7 @@ if (typeof version !== 'string') {
   throw new Error('Version field in package.json is not a string.');
 }
 
-const REPO_URL = 'https://github.com/ridedott/eslint-config';
+const REPO_URL = 'https://github.com/ridedott/eslint-plugin';
 
 export const createRule = ESLintUtils.RuleCreator((name: string): string => {
   const ruleName = parsePath(name).name;
