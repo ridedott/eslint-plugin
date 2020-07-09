@@ -21,7 +21,7 @@ npm install --save-dev @ridedott/eslint-plugin eslint
 
 | Rule                                        | Description                                                | Configurations   | Fixable  |
 | ------------------------------------------- | ---------------------------------------------------------- | ---------------- | -------- |
-| [no-single-line-comment-block][]            | Single line comments should not be in a block comment.     | ![recommended][] |          |
+| [no-single-line-comment-block][]            | Single line comments should not be in a block comment.     | ![recommended][] | ![fix][] |
 | [no-template-literals-without-expression][] | There should not be template literals without expressions. | ![recommended][] | ![fix][] |
 
 ## Getting Started

@@ -1,7 +1,9 @@
 import {
   AST_TOKEN_TYPES,
+  TSESLint,
   TSESTree,
 } from '@typescript-eslint/experimental-utils';
+import { RuleFix } from '@typescript-eslint/experimental-utils/dist/ts-eslint';
 
 import { createRule } from '../util';
 
@@ -53,6 +55,7 @@ export default createRule({
       description: 'Single line comments should not be in a block comment.',
       recommended: false,
     },
+    fixable: 'code',
     messages: {
       useSingleLineNotation: 'Use line comment notation instead.',
     },
@@ -110,6 +113,26 @@ export default createRule({
         context.report({
           messageId: 'useSingleLineNotation',
           loc: comment.loc,
+          fix: (fixer: TSESLint.RuleFixer): RuleFix | null => {
+            if (
+              blockCommentLines.length === MIN_NUMBER_OF_LINES &&
+              blockCommentLines[1] !== undefined
+            ) {
+              return fixer.replaceTextRange(
+                comment.range,
+                `// ${blockCommentLines[1].split('*')[1].trim()}`,
+              );
+            }
+
+            if (blockCommentLines.length === 1) {
+              return fixer.replaceTextRange(
+                comment.range,
+                `// ${blockCommentLines[0].trim()}`,
+              );
+            }
+
+            return null;
+          },
         });
       }
     };
