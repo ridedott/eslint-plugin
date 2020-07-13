@@ -28,6 +28,10 @@ Examples of **correct** code for this rule:
 with ${expression}`;
 
 `Single line template literal without expressions, 'single quotes', "double quotes"`;
+
+tag`string text`;
+
+tag`string text line 1 \n string text line 2`;
 ```
 
 ## Options
