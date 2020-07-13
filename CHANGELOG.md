@@ -1,3 +1,10 @@
+## [1.4.4](https://github.com/ridedott/eslint-plugin/compare/v1.4.3...v1.4.4) (2020-07-13)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/config-conventional from 9.0.1 to 9.1.1
+  ([1b00dcc](https://github.com/ridedott/eslint-plugin/commit/1b00dcc7ce890ba7b8d6a38e13ab438d91a46727))
+
 ## [1.4.3](https://github.com/ridedott/eslint-plugin/compare/v1.4.2...v1.4.3) (2020-07-13)
 
 ### Bug Fixes
