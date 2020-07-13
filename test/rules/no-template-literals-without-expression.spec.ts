@@ -54,5 +54,7 @@ ruleTester.run('no-template-literals-without-expression', rule, {
       code: '`Multiline template literal\nwithout expressions`',
       options: [{ ignoreMultiline: true }],
     },
+    'tag`string text line 1 \n string text line 2`;',
+    'tag`string text`;',
   ],
 });
