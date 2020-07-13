@@ -1,3 +1,10 @@
+## [1.4.3](https://github.com/ridedott/eslint-plugin/compare/v1.4.2...v1.4.3) (2020-07-13)
+
+### Bug Fixes
+
+- support tagged templates in no-template-literals-without-expression
+  ([4c7108c](https://github.com/ridedott/eslint-plugin/commit/4c7108c01eb88e38fbd587bf151db543d965b580))
+
 ## [1.4.2](https://github.com/ridedott/eslint-plugin/compare/v1.4.1...v1.4.2) (2020-07-13)
 
 ### Chores
