@@ -1,3 +1,10 @@
+## [1.4.19](https://github.com/ridedott/eslint-plugin/compare/v1.4.18...v1.4.19) (2020-08-18)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 14.0.27 to 14.6.0
+  ([4af544b](https://github.com/ridedott/eslint-plugin/commit/4af544bd59072718e1a3d390d7f416208ec187dc))
+
 ## [1.4.18](https://github.com/ridedott/eslint-plugin/compare/v1.4.17...v1.4.18) (2020-08-16)
 
 ### Chores
