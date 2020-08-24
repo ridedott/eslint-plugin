@@ -1,3 +1,10 @@
+## [1.4.22](https://github.com/ridedott/eslint-plugin/compare/v1.4.21...v1.4.22) (2020-08-24)
+
+### Chores
+
+- **deps:** [security] bump lodash from 4.17.14 to 4.17.20
+  ([a4aa2be](https://github.com/ridedott/eslint-plugin/commit/a4aa2be523f90a621cf5170c5f8a8a617f3d3b61))
+
 ## [1.4.21](https://github.com/ridedott/eslint-plugin/compare/v1.4.20...v1.4.21) (2020-08-22)
 
 ### Chores
