@@ -1,3 +1,10 @@
+## [1.4.27](https://github.com/ridedott/eslint-plugin/compare/v1.4.26...v1.4.27) (2020-08-27)
+
+### Chores
+
+- **deps-dev:** bump prettier from 2.1.0 to 2.1.1
+  ([22cbcbc](https://github.com/ridedott/eslint-plugin/commit/22cbcbc1b3d85bc90895eed16fe176106e15d4a5))
+
 ## [1.4.26](https://github.com/ridedott/eslint-plugin/compare/v1.4.25...v1.4.26) (2020-08-26)
 
 ### Chores
