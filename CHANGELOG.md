@@ -1,3 +1,10 @@
+## [1.4.33](https://github.com/ridedott/eslint-plugin/compare/v1.4.32...v1.4.33) (2020-09-07)
+
+### Chores
+
+- **deps-dev:** bump husky from 4.2.5 to 4.3.0
+  ([089d256](https://github.com/ridedott/eslint-plugin/commit/089d2569a94af903ffb2ff58a0c68daa8282f071))
+
 ## [1.4.32](https://github.com/ridedott/eslint-plugin/compare/v1.4.31...v1.4.32) (2020-09-04)
 
 ### Chores
