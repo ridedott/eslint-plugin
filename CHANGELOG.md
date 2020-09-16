@@ -1,3 +1,10 @@
+## [1.4.40](https://github.com/ridedott/eslint-plugin/compare/v1.4.39...v1.4.40) (2020-09-16)
+
+### Continuous Integration
+
+- add timeout on every job
+  ([6b86498](https://github.com/ridedott/eslint-plugin/commit/6b8649848ef4a5b423d10f329d02ca1eb4ca1d5e))
+
 ## [1.4.39](https://github.com/ridedott/eslint-plugin/compare/v1.4.38...v1.4.39) (2020-09-16)
 
 ### Chores
