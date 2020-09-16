@@ -65,3 +65,4 @@ jobs:
         if: steps.build_package.outputs.released == 'true'
         run: |
           echo released version: ${{ steps.build_package.outputs.version }}, type: ${{ steps.build_package.outputs.level }}
+    timeout-minutes: 5
