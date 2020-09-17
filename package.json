@@ -5,30 +5,30 @@
     }
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.26.0",
-    "@typescript-eslint/experimental-utils": "^2.34.0",
-    "@typescript-eslint/parser": "^2.34.0"
+    "@typescript-eslint/experimental-utils": "^4.1.1",
+    "@typescript-eslint/parser": "^4.1.1"
   },
-  "description": "npm package template",
+  "description": "ESLint plugin for custom rules.",
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "@ridedott/eslint-config": "^1.0.19",
+    "@ridedott/eslint-config": "^2.3.0",
     "@types/jest": "^26.0.14",
-    "@types/node": "^14.10.2",
+    "@types/node": "^14.11.1",
     "commitizen": "^4.2.1",
     "cspell": "^4.1.0",
-    "eslint": "^6.8.0",
+    "eslint": "^7.9.0",
     "husky": "^4.3.0",
-    "jest": "^25.5.4",
+    "jest": "^26.4.2",
     "lint-staged": "^10.4.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.1.2",
-    "ts-jest": "^25.5.1",
-    "ts-node": "^9.0.0"
+    "ts-jest": "^26.3.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
   },
   "engines": {
-    "node": "12"
+    "node": ">= 12"
   },
   "files": [
     "lib",
@@ -43,15 +43,13 @@
   "license": "UNLICENSED",
   "lint-staged": {
     "*.ts": [
-      "eslint",
-      "git add"
+      "eslint"
     ],
     "*.{json,md,ts,yml,yaml}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   },
-  "main": "lib/index.js",
+  "main": "./lib/index.js",
   "name": "@ridedott/eslint-plugin",
   "private": false,
   "repository": {
@@ -65,14 +63,14 @@
     "clean": "rm -rf lib",
     "cz": "git-cz",
     "cz:retry": "git-cz --retry",
-    "format": "prettier --check \"**/*.{js,json,md,ts,yml,yaml}\"",
-    "format:fix": "prettier --write \"**/*.{js,json,md,ts,yml,yaml}\"",
+    "format": "prettier --check '**/*.{js,json,md,ts,yml,yaml}'",
+    "format:fix": "prettier --write '**/*.{js,json,md,ts,yml,yaml}'",
     "husky:lint-staged": "lint-staged",
     "husky:pre-commit": "run-p spellcheck husky:lint-staged",
-    "lint": "eslint --resolve-plugins-relative-to \"./node_modules/@ridedott/eslint-config\" \"**/*.ts\"",
-    "lint:fix": "eslint --fix --resolve-plugins-relative-to \"./node_modules/@ridedott/eslint-config\" \"**/*.ts\"",
+    "lint": "eslint '**/*.ts'",
+    "lint:fix": "eslint --fix",
     "semantic-release": "semantic-release",
-    "spellcheck": "cspell \"**/*\"",
+    "spellcheck": "cspell '**/*'",
     "test": "jest",
     "test:ci": "jest --ci --collect-coverage --maxWorkers=12",
     "test:coverage": "jest --collect-coverage",

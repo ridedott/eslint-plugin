@@ -1,5 +1,6 @@
-/* eslint-disable global-require */
 /* eslint-disable @typescript-eslint/no-require-imports */
+/* eslint-disable @typescript-eslint/no-var-requires */
+
 import { readdirSync } from 'fs';
 import { join, parse } from 'path';
 
@@ -8,13 +9,13 @@ const rulesDirectory = join(__dirname, 'rules');
 const { rules, allRules } = readdirSync(rulesDirectory).reduce(
   (
     parsed: {
-      allRules: {};
-      rules: {};
+      allRules: object;
+      rules: object;
     },
     rule: string,
   ): {
-    allRules: {};
-    rules: {};
+    allRules: object;
+    rules: object;
   } => {
     const { name, ext } = parse(rule);
 
