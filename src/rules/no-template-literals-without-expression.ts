@@ -12,9 +12,9 @@ type Options = ReadonlyArray<{
 
 const verifyTemplateLiteral = (
   node: TSESTree.TemplateLiteral,
-  /* eslint-disable @typescript-eslint/typedef */
-  context,
-  /* eslint-enable @typescript-eslint/typedef */
+  context: Readonly<
+    TSESLint.RuleContext<'templateLiteralsShouldHaveExpression', Options>
+  >,
   ignoreMultiline: boolean,
 ): void => {
   const [valueHasSingleQuotes, valueHasDoubleQuotes] = node.quasis.reduce(
@@ -97,12 +97,7 @@ export default createRule({
   defaultOptions: [{ ignoreMultiline: false }],
   create(
     context: Readonly<
-      TSESLint.RuleContext<
-        'templateLiteralsShouldHaveExpression',
-        Array<{
-          ignoreMultiline: boolean;
-        }>
-      >
+      TSESLint.RuleContext<'templateLiteralsShouldHaveExpression', Options>
     >,
     [{ ignoreMultiline }]: Options,
   ): {
