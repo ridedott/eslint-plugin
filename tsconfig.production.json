@@ -1,24 +1,30 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
+    "allowSyntheticDefaultImports": false,
     "alwaysStrict": true,
     "charset": "utf-8",
     "declaration": false,
-    "declarationMap": false,
-    "downlevelIteration": true,
+    "downlevelIteration": false,
     "forceConsistentCasingInFileNames": true,
+    "importsNotUsedAsValues": "error",
+    "lib": ["ES2020"],
     "module": "commonjs",
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     "noImplicitReturns": true,
+    "noImplicitThis": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "outDir": "lib",
+    "outDir": "./lib",
     "pretty": true,
-    "resolveJsonModule": true,
     "rootDir": "./src",
     "sourceMap": true,
     "strict": true,
-    "strictNullChecks": true
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "target": "ES2020",
+    "typeRoots": ["./@types", "./node_modules/@types"]
   },
   "include": ["./src"]
 }

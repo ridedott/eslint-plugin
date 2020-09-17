@@ -1,12 +1,7 @@
 {
   "compilerOptions": {
-    "lib": ["es2019"],
-    "module": "commonjs",
-    "resolveJsonModule": true,
-    "rootDir": ".",
-    "target": "es2019"
+    "rootDir": "."
   },
   "extends": "./tsconfig.production.json",
-  "include": ["./src/**/*.ts", "test/**/*.ts"],
-  "exclude": []
+  "include": ["./**/*"]
 }
