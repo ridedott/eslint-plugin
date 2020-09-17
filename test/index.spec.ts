@@ -3,7 +3,6 @@
  */
 
 /* eslint-disable @typescript-eslint/no-require-imports */
-/* eslint-disable global-require */
 import { exists } from 'fs';
 import { resolve } from 'path';
 import { promisify } from 'util';

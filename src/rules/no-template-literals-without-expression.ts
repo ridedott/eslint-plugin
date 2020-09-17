@@ -6,6 +6,10 @@ import {
 
 import { createRule } from '../util';
 
+type Options = ReadonlyArray<{
+  ignoreMultiline: boolean;
+}>;
+
 const verifyTemplateLiteral = (
   node: TSESTree.TemplateLiteral,
   /* eslint-disable @typescript-eslint/typedef */
@@ -92,14 +96,17 @@ export default createRule({
   },
   defaultOptions: [{ ignoreMultiline: false }],
   create(
-    /* eslint-disable @typescript-eslint/typedef */
-    context,
-    /* eslint-enable @typescript-eslint/typedef */
-    [{ ignoreMultiline }]: Array<{
-      ignoreMultiline: boolean;
-    }>,
+    context: Readonly<
+      TSESLint.RuleContext<
+        'templateLiteralsShouldHaveExpression',
+        Array<{
+          ignoreMultiline: boolean;
+        }>
+      >
+    >,
+    [{ ignoreMultiline }]: Options,
   ): {
-    ExpressionStatement(node: TSESTree.ExpressionStatement): void;
+    ExpressionStatement: (node: TSESTree.ExpressionStatement) => void;
   } {
     return {
       ExpressionStatement(node: TSESTree.ExpressionStatement): void {

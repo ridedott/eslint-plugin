@@ -3,9 +3,13 @@ import {
   TSESLint,
   TSESTree,
 } from '@typescript-eslint/experimental-utils';
-import { RuleFix } from '@typescript-eslint/experimental-utils/dist/ts-eslint';
 
 import { createRule } from '../util';
+
+type Options = ReadonlyArray<{
+  ignore: string[];
+  ignorePatterns: string[];
+}>;
 
 /**
  * Checks for eslint specific in file configuration comments.
@@ -81,15 +85,10 @@ export default createRule({
   },
   defaultOptions: [{ ignore: [], ignorePatterns: [] }],
   create(
-    /* eslint-disable @typescript-eslint/typedef */
-    context,
-    /* eslint-enable @typescript-eslint/typedef */
-    [{ ignore, ignorePatterns }]: Array<{
-      ignore: string[];
-      ignorePatterns: string[];
-    }>,
+    context: Readonly<TSESLint.RuleContext<'useSingleLineNotation', Options>>,
+    [{ ignore, ignorePatterns }]: Options,
   ): {
-    Program(): void;
+    Program: () => void;
   } {
     const MIN_NUMBER_OF_LINES = 3;
     const sourceCode = context.getSourceCode();
@@ -113,11 +112,8 @@ export default createRule({
         context.report({
           messageId: 'useSingleLineNotation',
           loc: comment.loc,
-          fix: (fixer: TSESLint.RuleFixer): RuleFix | null => {
-            if (
-              blockCommentLines.length === MIN_NUMBER_OF_LINES &&
-              blockCommentLines[1] !== undefined
-            ) {
+          fix: (fixer: TSESLint.RuleFixer): TSESLint.RuleFix | null => {
+            if (blockCommentLines.length === MIN_NUMBER_OF_LINES) {
               return fixer.replaceTextRange(
                 comment.range,
                 `// ${blockCommentLines[1].split('*')[1].trim()}`,
