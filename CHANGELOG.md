@@ -1,3 +1,15 @@
+## [1.4.43](https://github.com/ridedott/eslint-plugin/compare/v1.4.42...v1.4.43) (2020-09-17)
+
+### Build System
+
+- update TypeScript configuration
+  ([118713b](https://github.com/ridedott/eslint-plugin/commit/118713bab668f16ce44a0f9a7e41e57ea56348b6))
+
+### Chores
+
+- **deps:** bump @typescript-eslint/eslint-plugin from 2.26.0 to 2.34.0
+  ([adc21ad](https://github.com/ridedott/eslint-plugin/commit/adc21ad5b39547f9498c2e558245c3bd570cea31))
+
 ## [1.4.42](https://github.com/ridedott/eslint-plugin/compare/v1.4.41...v1.4.42) (2020-09-17)
 
 ### Chores
