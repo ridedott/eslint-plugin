@@ -20,6 +20,7 @@ module.exports = {
       tsConfig: 'tsconfig.json',
     },
   },
+  logHeapUsage: true,
   preset: 'ts-jest',
   resetMocks: true,
   roots: ['<rootDir>'],
