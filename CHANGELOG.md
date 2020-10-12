@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/ridedott/eslint-plugin/compare/v1.4.70...v1.5.0) (2020-10-12)
+
+### Features
+
+- enable logHeapUsage jest option
+  ([855598d](https://github.com/ridedott/eslint-plugin/commit/855598d9d962bfe3f4ec220775136324439512d1))
+
 ## [1.4.70](https://github.com/ridedott/eslint-plugin/compare/v1.4.69...v1.4.70) (2020-10-12)
 
 ### Chores
