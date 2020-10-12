@@ -1,3 +1,40 @@
+## [1.4.70](https://github.com/ridedott/eslint-plugin/compare/v1.4.69...v1.4.70) (2020-10-12)
+
+### Chores
+
+- **deps-dev:** bump @ridedott/eslint-config from 2.4.4 to 2.4.6
+  ([b9487ac](https://github.com/ridedott/eslint-plugin/commit/b9487ac053eed627b916534b5b3f450f181d875d))
+
+## [1.4.69](https://github.com/ridedott/eslint-plugin/compare/v1.4.68...v1.4.69) (2020-10-11)
+
+### Chores
+
+- **deps-dev:** bump jest from 26.5.2 to 26.5.3
+  ([41fbf4d](https://github.com/ridedott/eslint-plugin/commit/41fbf4dc036d359cc4bde33c70d298684022d8c2))
+
+## [1.4.68](https://github.com/ridedott/eslint-plugin/compare/v1.4.67...v1.4.68) (2020-10-10)
+
+### Chores
+
+- **deps-dev:** bump eslint from 7.10.0 to 7.11.0
+  ([07bbd56](https://github.com/ridedott/eslint-plugin/commit/07bbd5661551fb6ac2e7a09ed992cea38c450453))
+
+## [1.4.67](https://github.com/ridedott/eslint-plugin/compare/v1.4.66...v1.4.67) (2020-10-09)
+
+### Chores
+
+- **deps-dev:** bump @ridedott/eslint-config from 2.4.3 to 2.4.4
+  ([879bab0](https://github.com/ridedott/eslint-plugin/commit/879bab05c7f0f9db8a71cd8a8c5a607ae7317c0f))
+- **deps-dev:** bump @types/node from 14.11.5 to 14.11.8
+  ([dd21bbd](https://github.com/ridedott/eslint-plugin/commit/dd21bbd94789a0e0d2a6a3e15547e9402f03ac2f))
+
+## [1.4.66](https://github.com/ridedott/eslint-plugin/compare/v1.4.65...v1.4.66) (2020-10-09)
+
+### Continuous Integration
+
+- update cache dependencies to actions/cache@v2
+  ([2902fd1](https://github.com/ridedott/eslint-plugin/commit/2902fd1c45caacb969335a4654db09f32755d7f7))
+
 ## [1.4.65](https://github.com/ridedott/eslint-plugin/compare/v1.4.64...v1.4.65) (2020-10-07)
 
 ### Chores
