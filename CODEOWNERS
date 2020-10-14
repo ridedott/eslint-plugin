@@ -1,6 +1,8 @@
 # See https://help.github.com/articles/about-codeowners/
 # for more info about CODEOWNERS file
 
+*                                         @ridedott/platform
+
 .github/ISSUE_TEMPLATE                    @ridedott/platform
 .github/pull_request_template.md          @ridedott/platform
 
