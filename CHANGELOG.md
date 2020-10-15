@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/ridedott/eslint-plugin/compare/v1.5.4...v1.6.0) (2020-10-15)
+
+### Features
+
+- add default code owner
+  ([6f906f0](https://github.com/ridedott/eslint-plugin/commit/6f906f0034034c92c89a99853b0fb4b042c5f6d5))
+
 ## [1.5.4](https://github.com/ridedott/eslint-plugin/compare/v1.5.3...v1.5.4) (2020-10-13)
 
 ### Chores
