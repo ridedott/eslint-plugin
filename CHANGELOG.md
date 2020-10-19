@@ -1,3 +1,10 @@
+## [1.6.8](https://github.com/ridedott/eslint-plugin/compare/v1.6.7...v1.6.8) (2020-10-19)
+
+### Chores
+
+- **deps-dev:** bump jest from 26.5.3 to 26.6.0
+  ([4d3f402](https://github.com/ridedott/eslint-plugin/commit/4d3f4020de4c6a64cf55185f952294f0c57d8654))
+
 ## [1.6.7](https://github.com/ridedott/eslint-plugin/compare/v1.6.6...v1.6.7) (2020-10-19)
 
 ### Chores
