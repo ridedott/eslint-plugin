@@ -1,3 +1,10 @@
+## [1.6.42](https://github.com/ridedott/eslint-plugin/compare/v1.6.41...v1.6.42) (2020-11-07)
+
+### Chores
+
+- **deps-dev:** bump eslint from 7.12.1 to 7.13.0
+  ([f3ebb56](https://github.com/ridedott/eslint-plugin/commit/f3ebb5616c52b57394db7fc4e3e6bbe45526b7a9))
+
 ## [1.6.41](https://github.com/ridedott/eslint-plugin/compare/v1.6.40...v1.6.41) (2020-11-05)
 
 ### Chores
