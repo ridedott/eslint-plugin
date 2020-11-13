@@ -68,7 +68,7 @@
     "husky:lint-staged": "lint-staged",
     "husky:pre-commit": "run-p spellcheck husky:lint-staged",
     "lint": "eslint '**/*.ts'",
-    "lint:fix": "eslint --fix",
+    "lint:fix": "eslint '**/*.ts' --fix",
     "semantic-release": "semantic-release",
     "spellcheck": "cspell '**/*'",
     "test": "jest",

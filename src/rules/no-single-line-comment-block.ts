@@ -137,9 +137,9 @@ export default createRule({
       Program(): void {
         const comments = sourceCode.getAllComments();
 
-        comments.forEach((comment: TSESTree.Comment): void =>
-          checkComment(comment),
-        );
+        comments.forEach((comment: TSESTree.Comment): void => {
+          checkComment(comment);
+        });
       },
     };
   },
