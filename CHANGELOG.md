@@ -1,3 +1,10 @@
+## [1.6.75](https://github.com/ridedott/eslint-plugin/compare/v1.6.74...v1.6.75) (2020-11-30)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/experimental-utils from 4.8.2 to 4.9.0
+  ([4c62c4d](https://github.com/ridedott/eslint-plugin/commit/4c62c4dae3ccffa5d8bdb2608d5b179743a1449b))
+
 ## [1.6.74](https://github.com/ridedott/eslint-plugin/compare/v1.6.73...v1.6.74) (2020-11-30)
 
 ### Chores
