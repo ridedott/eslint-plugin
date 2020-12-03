@@ -1,3 +1,10 @@
+## [1.6.80](https://github.com/ridedott/eslint-plugin/compare/v1.6.79...v1.6.80) (2020-12-03)
+
+### Chores
+
+- **deps-dev:** bump ts-node from 9.0.0 to 9.1.0
+  ([d498e85](https://github.com/ridedott/eslint-plugin/commit/d498e855fb14b4c8df29f31867fe660f0a37832f))
+
 ## [1.6.79](https://github.com/ridedott/eslint-plugin/compare/v1.6.78...v1.6.79) (2020-12-02)
 
 ### Chores
