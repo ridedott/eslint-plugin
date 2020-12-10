@@ -1,3 +1,10 @@
+## [1.6.95](https://github.com/ridedott/eslint-plugin/compare/v1.6.94...v1.6.95) (2020-12-10)
+
+### Chores
+
+- **deps:** [security] bump ini from 1.3.5 to 1.3.7
+  ([348eddd](https://github.com/ridedott/eslint-plugin/commit/348eddd14d9f94519b97d9a05a73a14d998eddba))
+
 ## [1.6.94](https://github.com/ridedott/eslint-plugin/compare/v1.6.93...v1.6.94) (2020-12-10)
 
 ### Chores
