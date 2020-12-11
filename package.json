@@ -13,7 +13,7 @@
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@ridedott/eslint-config": "^2.5.49",
-    "@types/jest": "^26.0.18",
+    "@types/jest": "^26.0.19",
     "@types/node": "^14.14.12",
     "commitizen": "^4.2.2",
     "cspell": "^4.2.5",
