@@ -1,3 +1,10 @@
+## [1.6.98](https://github.com/ridedott/eslint-plugin/compare/v1.6.97...v1.6.98) (2020-12-11)
+
+### Chores
+
+- **deps-dev:** bump typescript from 4.1.2 to 4.1.3
+  ([eb9a876](https://github.com/ridedott/eslint-plugin/commit/eb9a876eee363d10ab1aa37c865589f21149a6b7))
+
 ## [1.6.97](https://github.com/ridedott/eslint-plugin/compare/v1.6.96...v1.6.97) (2020-12-11)
 
 ### Chores
