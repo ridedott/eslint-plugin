@@ -1,3 +1,10 @@
+## [1.6.113](https://github.com/ridedott/eslint-plugin/compare/v1.6.112...v1.6.113) (2020-12-21)
+
+### Chores
+
+- **deps:** [security] bump node-notifier from 8.0.0 to 8.0.1
+  ([8b47939](https://github.com/ridedott/eslint-plugin/commit/8b4793943623231c5525303cd89739da44eed39c))
+
 ## [1.6.112](https://github.com/ridedott/eslint-plugin/compare/v1.6.111...v1.6.112) (2020-12-21)
 
 ### Chores
