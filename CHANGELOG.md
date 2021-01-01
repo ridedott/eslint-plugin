@@ -1,3 +1,10 @@
+## [1.6.126](https://github.com/ridedott/eslint-plugin/compare/v1.6.125...v1.6.126) (2021-01-01)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 14.14.17 to 14.14.18
+  ([fc0be6b](https://github.com/ridedott/eslint-plugin/commit/fc0be6b6ca5c81dd86194d314d1e809b1b587264))
+
 ## [1.6.125](https://github.com/ridedott/eslint-plugin/compare/v1.6.124...v1.6.125) (2020-12-31)
 
 ### Chores
