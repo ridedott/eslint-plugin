@@ -1,3 +1,10 @@
+## [1.6.129](https://github.com/ridedott/eslint-plugin/compare/v1.6.128...v1.6.129) (2021-01-04)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/parser from 4.11.1 to 4.12.0
+  ([d460ca4](https://github.com/ridedott/eslint-plugin/commit/d460ca43ba831f93d6da3b054e7cb6104a2fe4a6))
+
 ## [1.6.128](https://github.com/ridedott/eslint-plugin/compare/v1.6.127...v1.6.128) (2021-01-02)
 
 ### Chores
