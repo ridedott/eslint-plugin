@@ -1,3 +1,10 @@
+## [1.6.150](https://github.com/ridedott/eslint-plugin/compare/v1.6.149...v1.6.150) (2021-01-28)
+
+### Chores
+
+- **deps-dev:** bump husky from 5.0.7 to 5.0.8
+  ([1f22369](https://github.com/ridedott/eslint-plugin/commit/1f22369faf1bfdabb37b3eec4edb724f1ba78632))
+
 ## [1.6.149](https://github.com/ridedott/eslint-plugin/compare/v1.6.148...v1.6.149) (2021-01-27)
 
 ### Chores
