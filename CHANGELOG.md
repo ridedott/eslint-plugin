@@ -1,3 +1,10 @@
+## [1.6.152](https://github.com/ridedott/eslint-plugin/compare/v1.6.151...v1.6.152) (2021-01-29)
+
+### Chores
+
+- **deps-dev:** bump ts-jest from 26.4.4 to 26.5.0
+  ([5873c65](https://github.com/ridedott/eslint-plugin/commit/5873c654608ee7f5103fda44cf194dc76255a493))
+
 ## [1.6.151](https://github.com/ridedott/eslint-plugin/compare/v1.6.150...v1.6.151) (2021-01-28)
 
 ### Chores
