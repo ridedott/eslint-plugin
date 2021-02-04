@@ -1,3 +1,10 @@
+## [1.6.160](https://github.com/ridedott/eslint-plugin/compare/v1.6.159...v1.6.160) (2021-02-04)
+
+### Chores
+
+- update Dependabot configuration
+  ([ccbbb20](https://github.com/ridedott/eslint-plugin/commit/ccbbb2072a3725032f677b6d3f9258ffff2c7320))
+
 ## [1.6.159](https://github.com/ridedott/eslint-plugin/compare/v1.6.158...v1.6.159) (2021-02-04)
 
 ### Chores
