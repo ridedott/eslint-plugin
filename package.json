@@ -5,7 +5,7 @@
     }
   },
   "dependencies": {
-    "@typescript-eslint/experimental-utils": "^4.14.2",
+    "@typescript-eslint/experimental-utils": "^4.15.0",
     "@typescript-eslint/parser": "^4.14.2"
   },
   "description": "ESLint plugin for custom rules.",
