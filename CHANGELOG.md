@@ -1,3 +1,12 @@
+## [1.6.161](https://github.com/ridedott/eslint-plugin/compare/v1.6.160...v1.6.161) (2021-02-09)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/experimental-utils from 4.14.2 to 4.15.0
+  ([349c06d](https://github.com/ridedott/eslint-plugin/commit/349c06d7e531bdb32282e2c106ccf37eedf51e1e))
+- **deps-dev:** bump husky from 5.0.8 to 5.0.9
+  ([0476100](https://github.com/ridedott/eslint-plugin/commit/04761005f2ce36297e08da669811e60255d3a794))
+
 ## [1.6.160](https://github.com/ridedott/eslint-plugin/compare/v1.6.159...v1.6.160) (2021-02-04)
 
 ### Chores
