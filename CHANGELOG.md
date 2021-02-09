@@ -1,3 +1,10 @@
+## [1.6.164](https://github.com/ridedott/eslint-plugin/compare/v1.6.163...v1.6.164) (2021-02-09)
+
+### Chores
+
+- **deps:** bump actions/cache from v2 to v2.1.4
+  ([50952b1](https://github.com/ridedott/eslint-plugin/commit/50952b13321411242cacb3df5418bf768797af68))
+
 ## [1.6.163](https://github.com/ridedott/eslint-plugin/compare/v1.6.162...v1.6.163) (2021-02-09)
 
 ### Chores
