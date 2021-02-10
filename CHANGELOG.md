@@ -1,3 +1,12 @@
+## [1.6.166](https://github.com/ridedott/eslint-plugin/compare/v1.6.165...v1.6.166) (2021-02-10)
+
+### Chores
+
+- **deps-dev:** bump ts-jest from 26.5.0 to 26.5.1
+  ([a6c3800](https://github.com/ridedott/eslint-plugin/commit/a6c3800022efc87f3f8cee10b92bac6ca7a3a3be))
+- **deps-dev:** bump typescript from 4.1.3 to 4.1.4
+  ([aff0e62](https://github.com/ridedott/eslint-plugin/commit/aff0e625e7381d4f97ce5d9765fb8d3a3a136457))
+
 ## [1.6.165](https://github.com/ridedott/eslint-plugin/compare/v1.6.164...v1.6.165) (2021-02-09)
 
 ### Chores
