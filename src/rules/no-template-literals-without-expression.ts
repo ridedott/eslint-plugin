@@ -18,12 +18,10 @@ const verifyTemplateLiteral = (
   ignoreMultiline: boolean,
 ): void => {
   const [valueHasSingleQuotes, valueHasDoubleQuotes] = node.quasis.reduce(
-    (acc: boolean[], curr: TSESTree.TemplateElement): boolean[] => {
-      return [
-        acc[0] === false ? curr.value.raw.includes("'") : acc[0],
-        acc[1] === false ? curr.value.raw.includes('"') : acc[1],
-      ];
-    },
+    (acc: boolean[], curr: TSESTree.TemplateElement): boolean[] => [
+      acc[0] === false ? curr.value.raw.includes("'") : acc[0],
+      acc[1] === false ? curr.value.raw.includes('"') : acc[1],
+    ],
     [false, false],
   );
   const hasNoExpressions = node.expressions.length === 0;
