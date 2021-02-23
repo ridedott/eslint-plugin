@@ -1,3 +1,10 @@
+## [1.6.176](https://github.com/ridedott/eslint-plugin/compare/v1.6.175...v1.6.176) (2021-02-23)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 11.0.0 to 12.0.0
+  ([e238b59](https://github.com/ridedott/eslint-plugin/commit/e238b59e8e17ff3f93df14189069257e7d159d39))
+
 ## [1.6.175](https://github.com/ridedott/eslint-plugin/compare/v1.6.174...v1.6.175) (2021-02-22)
 
 ### Chores
