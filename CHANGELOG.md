@@ -1,3 +1,14 @@
+## [1.6.191](https://github.com/ridedott/eslint-plugin/compare/v1.6.190...v1.6.191) (2021-03-02)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 12.0.0 to 12.0.1
+  ([ca67d06](https://github.com/ridedott/eslint-plugin/commit/ca67d06049955d2a5a4feb23cc0b952676ddbf71))
+- **deps-dev:** bump cspell from 5.3.1 to 5.3.4
+  ([7e0dbdb](https://github.com/ridedott/eslint-plugin/commit/7e0dbdb55ab819f5bb78b076da69756d417232a8))
+- **deps-dev:** bump husky from 5.1.1 to 5.1.2
+  ([98796ca](https://github.com/ridedott/eslint-plugin/commit/98796ca2aa50f37bca66de292bf11cfb37abf447))
+
 ## [1.6.190](https://github.com/ridedott/eslint-plugin/compare/v1.6.189...v1.6.190) (2021-03-01)
 
 ### Chores
