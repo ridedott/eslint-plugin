@@ -1,3 +1,10 @@
+## [1.6.196](https://github.com/ridedott/eslint-plugin/compare/v1.6.195...v1.6.196) (2021-03-03)
+
+### Chores
+
+- **deps-dev:** bump @ridedott/eslint-config from 2.10.14 to 2.10.15
+  ([41d7ec9](https://github.com/ridedott/eslint-plugin/commit/41d7ec9acf93325134e8ad46f05252e43ea4671e))
+
 ## [1.6.195](https://github.com/ridedott/eslint-plugin/compare/v1.6.194...v1.6.195) (2021-03-02)
 
 ### Chores
