@@ -1,3 +1,17 @@
+## [1.6.199](https://github.com/ridedott/eslint-plugin/compare/v1.6.198...v1.6.199) (2021-04-08)
+
+### Continuous Integration
+
+- update merge-me action to new workflow
+  ([61a0324](https://github.com/ridedott/eslint-plugin/commit/61a0324ee974bfd3a081027bbc94e80b38c697f4))
+
+### Other
+
+- bump @types/node from 14.14.31 to 14.14.32
+  ([9489a69](https://github.com/ridedott/eslint-plugin/commit/9489a69684c3878af41fa767a26807e297516066))
+- bump cspell from 5.3.5 to 5.3.7
+  ([91ca9ea](https://github.com/ridedott/eslint-plugin/commit/91ca9eaa100dba109abc1332ad13ceca309fda5d))
+
 ## [1.6.198](https://github.com/ridedott/eslint-plugin/compare/v1.6.197...v1.6.198) (2021-03-05)
 
 ### Chores
