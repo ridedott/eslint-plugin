@@ -1,3 +1,40 @@
+## [1.6.204](https://github.com/ridedott/eslint-plugin/compare/v1.6.203...v1.6.204) (2021-05-04)
+
+### Chores
+
+- **deps:** bump y18n from 4.0.0 to 4.0.3
+  ([2ac142b](https://github.com/ridedott/eslint-plugin/commit/2ac142b7c84a773321b5de77aa40e22b77c9522b))
+
+## [1.6.203](https://github.com/ridedott/eslint-plugin/compare/v1.6.202...v1.6.203) (2021-05-04)
+
+### Chores
+
+- **deps-dev:** bump typescript from 4.2.3 to 4.2.4
+  ([376c9ff](https://github.com/ridedott/eslint-plugin/commit/376c9ff8ff127e446a872fab860441b735233ce7))
+
+## [1.6.202](https://github.com/ridedott/eslint-plugin/compare/v1.6.201...v1.6.202) (2021-05-04)
+
+### Chores
+
+- enforce node types and engine compatibility
+  ([4dd0346](https://github.com/ridedott/eslint-plugin/commit/4dd03466e2fecad3ac71321770494fcf0155e354))
+
+## [1.6.201](https://github.com/ridedott/eslint-plugin/compare/v1.6.200...v1.6.201) (2021-05-04)
+
+### Chores
+
+- **deps-dev:** bump @types/jest from 26.0.20 to 26.0.23
+  ([24d3b9f](https://github.com/ridedott/eslint-plugin/commit/24d3b9f9d96d1b3d199f869e77f489348065c90c))
+
+## [1.6.200](https://github.com/ridedott/eslint-plugin/compare/v1.6.199...v1.6.200) (2021-05-04)
+
+### Chores
+
+- **deps:** bump actions/cache from v2.1.4 to v2.1.5
+  ([7ef9043](https://github.com/ridedott/eslint-plugin/commit/7ef90432c7d82324e88575487964c6f487987601))
+- **deps-dev:** bump ts-jest from 26.5.3 to 26.5.5
+  ([46a9015](https://github.com/ridedott/eslint-plugin/commit/46a9015a60f195694a49a897f8b63390f4c65922))
+
 ## [1.6.199](https://github.com/ridedott/eslint-plugin/compare/v1.6.198...v1.6.199) (2021-04-08)
 
 ### Continuous Integration
