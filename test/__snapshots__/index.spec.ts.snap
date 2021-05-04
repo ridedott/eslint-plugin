@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`rules should export configs that refer to actual rules 1`] = `
+exports[`rules exports configurations that refer to actual rules 1`] = `
 Object {
   "all": Object {
     "parser": "@typescript-eslint/parser",
