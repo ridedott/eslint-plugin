@@ -1,3 +1,10 @@
+## [1.6.204](https://github.com/ridedott/eslint-plugin/compare/v1.6.203...v1.6.204) (2021-05-04)
+
+### Chores
+
+- **deps:** bump y18n from 4.0.0 to 4.0.3
+  ([2ac142b](https://github.com/ridedott/eslint-plugin/commit/2ac142b7c84a773321b5de77aa40e22b77c9522b))
+
 ## [1.6.203](https://github.com/ridedott/eslint-plugin/compare/v1.6.202...v1.6.203) (2021-05-04)
 
 ### Chores
