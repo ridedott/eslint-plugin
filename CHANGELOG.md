@@ -1,3 +1,10 @@
+## [1.6.202](https://github.com/ridedott/eslint-plugin/compare/v1.6.201...v1.6.202) (2021-05-04)
+
+### Chores
+
+- enforce node types and engine compatibility
+  ([4dd0346](https://github.com/ridedott/eslint-plugin/commit/4dd03466e2fecad3ac71321770494fcf0155e354))
+
 ## [1.6.201](https://github.com/ridedott/eslint-plugin/compare/v1.6.200...v1.6.201) (2021-05-04)
 
 ### Chores
