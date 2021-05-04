@@ -51,39 +51,8 @@ const hasSpecialCases = (
   return false;
 };
 
+// eslint-disable-next-line import/no-default-export
 export default createRule({
-  name: __filename,
-  meta: {
-    docs: {
-      category: 'Best Practices',
-      description: 'Single line comments should not be in a block comment.',
-      recommended: false,
-    },
-    fixable: 'code',
-    messages: {
-      useSingleLineNotation: 'Use line comment notation instead.',
-    },
-    type: 'suggestion',
-    schema: [
-      {
-        type: 'object',
-        properties: {
-          ignore: {
-            type: 'array',
-            items: { type: 'string' },
-            additionalItems: false,
-          },
-          ignorePatterns: {
-            type: 'array',
-            items: { type: 'string' },
-            additionalItems: false,
-          },
-        },
-        additionalProperties: false,
-      },
-    ],
-  },
-  defaultOptions: [{ ignore: [], ignorePatterns: [] }],
   create(
     context: Readonly<TSESLint.RuleContext<'useSingleLineNotation', Options>>,
     [{ ignore, ignorePatterns }]: Options,
@@ -110,8 +79,6 @@ export default createRule({
         hasSpecialCases(blockCommentLines, ignore, ignoreRegex) === false
       ) {
         context.report({
-          messageId: 'useSingleLineNotation',
-          loc: comment.loc,
           fix: (fixer: TSESLint.RuleFixer): TSESLint.RuleFix | null => {
             if (blockCommentLines.length === MIN_NUMBER_OF_LINES) {
               return fixer.replaceTextRange(
@@ -129,6 +96,8 @@ export default createRule({
 
             return null;
           },
+          loc: comment.loc,
+          messageId: 'useSingleLineNotation',
         });
       }
     };
@@ -137,10 +106,42 @@ export default createRule({
       Program(): void {
         const comments = sourceCode.getAllComments();
 
-        comments.forEach((comment: TSESTree.Comment): void => {
+        for (const comment of comments) {
           checkComment(comment);
-        });
+        }
       },
     };
   },
+  defaultOptions: [{ ignore: [], ignorePatterns: [] }],
+  meta: {
+    docs: {
+      category: 'Best Practices',
+      description: 'Single line comments should not be in a block comment.',
+      recommended: false,
+    },
+    fixable: 'code',
+    messages: {
+      useSingleLineNotation: 'Use line comment notation instead.',
+    },
+    schema: [
+      {
+        additionalProperties: false,
+        properties: {
+          ignore: {
+            additionalItems: false,
+            items: { type: 'string' },
+            type: 'array',
+          },
+          ignorePatterns: {
+            additionalItems: false,
+            items: { type: 'string' },
+            type: 'array',
+          },
+        },
+        type: 'object',
+      },
+    ],
+    type: 'suggestion',
+  },
+  name: __filename,
 });

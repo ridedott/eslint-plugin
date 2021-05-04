@@ -30,7 +30,7 @@ const allConfigRules = Object.values(internalRules.configs)
 
 describe('rules', (): void => {
   it.each(ruleNames)(
-    'should have a corresponding documentation file for rule: %s',
+    'has a corresponding documentation file for rule: %s',
     async (rule: string): Promise<void> => {
       expect.assertions(1);
 
@@ -45,7 +45,7 @@ describe('rules', (): void => {
     },
   );
 
-  it('should have the correct amount of rules', (): void => {
+  it('has the correct amount of rules', (): void => {
     expect.assertions(1);
 
     const { length } = ruleNames;
@@ -53,7 +53,7 @@ describe('rules', (): void => {
     expect(length).toStrictEqual(numberOfRules);
   });
 
-  it('should export configs that refer to actual rules', (): void => {
+  it('exports configurations that refer to actual rules', (): void => {
     expect.assertions(3);
 
     const recommendedConfigs = internalRules.configs;
@@ -69,7 +69,7 @@ describe('rules', (): void => {
   });
 
   it.each(allConfigRules)(
-    '%s should be included and prefixed',
+    '%s rule is included and prefixed',
     (rule: string): void => {
       expect.assertions(2);
 
@@ -86,7 +86,7 @@ describe('util', (): void => {
     jest.resetModules();
   });
 
-  it('should fail if version is not present as a string in package.json', (): void => {
+  it('fails if version is not present as a string in package.json', (): void => {
     expect.assertions(1);
 
     jest.doMock('../package.json', (): { version: [] } => ({ version: [] }));

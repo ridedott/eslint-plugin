@@ -51,48 +51,23 @@ const verifyTemplateLiteral = (
   if (hasNoExpressions === true) {
     if (isMultiline === false) {
       context.report({
-        messageId: 'templateLiteralsShouldHaveExpression',
-        loc: node.loc,
         fix: ruleFixer,
+        loc: node.loc,
+        messageId: 'templateLiteralsShouldHaveExpression',
       });
     }
 
     if (isMultiline === true) {
       context.report({
-        messageId: 'templateLiteralsShouldHaveExpression',
         loc: node.loc,
+        messageId: 'templateLiteralsShouldHaveExpression',
       });
     }
   }
 };
 
+// eslint-disable-next-line import/no-default-export
 export default createRule({
-  name: __filename,
-  meta: {
-    docs: {
-      category: 'Best Practices',
-      description: 'There should not be template literals without expressions.',
-      recommended: false,
-    },
-    fixable: 'code',
-    messages: {
-      templateLiteralsShouldHaveExpression:
-        'Template literals should contain an expression.',
-    },
-    type: 'suggestion',
-    schema: [
-      {
-        type: 'object',
-        properties: {
-          ignoreMultiline: {
-            type: 'boolean',
-          },
-        },
-        additionalProperties: false,
-      },
-    ],
-  },
-  defaultOptions: [{ ignoreMultiline: false }],
   create(
     context: Readonly<
       TSESLint.RuleContext<'templateLiteralsShouldHaveExpression', Options>
@@ -113,4 +88,30 @@ export default createRule({
       },
     };
   },
+  defaultOptions: [{ ignoreMultiline: false }],
+  meta: {
+    docs: {
+      category: 'Best Practices',
+      description: 'There should not be template literals without expressions.',
+      recommended: false,
+    },
+    fixable: 'code',
+    messages: {
+      templateLiteralsShouldHaveExpression:
+        'Template literals should contain an expression.',
+    },
+    schema: [
+      {
+        additionalProperties: false,
+        properties: {
+          ignoreMultiline: {
+            type: 'boolean',
+          },
+        },
+        type: 'object',
+      },
+    ],
+    type: 'suggestion',
+  },
+  name: __filename,
 });
