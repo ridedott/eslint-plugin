@@ -18,8 +18,6 @@ updates:
       prefix: chore
     directory: /
     ignore:
-      # Husky version 5 is in early access, with a license for sponsors and open
-      # source projects only. After the early access, husky v5 will be MIT.
       - dependency-name: '@types/node'
         versions:
           - '>=13'
