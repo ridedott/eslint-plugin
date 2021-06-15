@@ -37,7 +37,7 @@ jobs:
           contains(github.event.commits[0].message, 'chore(deps-dev)&#58; bump
           @ridedott/eslint-config') == false
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN_DOTTBOTT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         id: build_package
         uses: ridedott/release-me-action@master
         with:
