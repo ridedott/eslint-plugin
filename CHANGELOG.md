@@ -1,3 +1,17 @@
+## [1.6.211](https://github.com/ridedott/eslint-plugin/compare/v1.6.210...v1.6.211) (2021-06-15)
+
+### Chores
+
+- **deps-dev:** bump commitizen from 4.2.3 to 4.2.4
+  ([3a65c25](https://github.com/ridedott/eslint-plugin/commit/3a65c253bc41ff16f3922c49c0e5abb0edd70ad2))
+
+### Continuous Integration
+
+- use DOTTBOTT_TOKEN to run the release job
+  ([5f24ce8](https://github.com/ridedott/eslint-plugin/commit/5f24ce88ab13eac7f08969922c3daa2f1c6a18cd))
+- use GITHUB_TOKEN to run the release job
+  ([fed5823](https://github.com/ridedott/eslint-plugin/commit/fed5823723a7422fa7564b4ea7162d08759bb332))
+
 ## [1.6.210](https://github.com/ridedott/eslint-plugin/compare/v1.6.209...v1.6.210) (2021-06-14)
 
 ### Continuous Integration
