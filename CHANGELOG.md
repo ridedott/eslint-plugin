@@ -1,3 +1,18 @@
+## [1.6.214](https://github.com/ridedott/eslint-plugin/compare/v1.6.213...v1.6.214) (2021-08-19)
+
+### Chores
+
+- **deps:** bump actions/setup-node from 2.1.5 to 2.4.0
+  ([35dc075](https://github.com/ridedott/eslint-plugin/commit/35dc07548f446f3dae2b9b1de5bd261f359a72cc))
+- **deps-dev:** bump @commitlint/config-conventional
+  ([d6fafc3](https://github.com/ridedott/eslint-plugin/commit/d6fafc37c1908c5b06aead08605dbe16194c4a38))
+- **deps-dev:** bump eslint from 7.25.0 to 7.32.0
+  ([1d6db7a](https://github.com/ridedott/eslint-plugin/commit/1d6db7af60a92bde449836593f468a879fadeca2))
+- **deps-dev:** bump lint-staged from 10.5.4 to 11.1.2
+  ([51e6326](https://github.com/ridedott/eslint-plugin/commit/51e6326ae7e3159c0f21976f07ae2ce2503e3e44))
+- **deps-dev:** bump ts-jest from 26.5.5 to 26.5.6
+  ([42797a2](https://github.com/ridedott/eslint-plugin/commit/42797a205e43eda5595371ec9e9e8893f5389204))
+
 ## [1.6.213](https://github.com/ridedott/eslint-plugin/compare/v1.6.212...v1.6.213) (2021-08-19)
 
 ### Continuous Integration
