@@ -1,3 +1,10 @@
+## [1.6.212](https://github.com/ridedott/eslint-plugin/compare/v1.6.211...v1.6.212) (2021-08-19)
+
+### Continuous Integration
+
+- skip releases with only dev dependency updates
+  ([4c1dffa](https://github.com/ridedott/eslint-plugin/commit/4c1dffaea29527deae8fe7e9b1ff513cb1dbc622))
+
 ## [1.6.211](https://github.com/ridedott/eslint-plugin/compare/v1.6.210...v1.6.211) (2021-06-15)
 
 ### Chores
