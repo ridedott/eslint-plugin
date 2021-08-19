@@ -1,3 +1,20 @@
+## [1.6.215](https://github.com/ridedott/eslint-plugin/compare/v1.6.214...v1.6.215) (2021-08-19)
+
+### Chores
+
+- **deps:** bump actions/cache from 2.1.5 to 2.1.6
+  ([bac591f](https://github.com/ridedott/eslint-plugin/commit/bac591faaba30cfd99eb7ddf1da8e518ba501af9))
+- **deps-dev:** bump @commitlint/cli from 12.0.1 to 13.1.0
+  ([bb2b50f](https://github.com/ridedott/eslint-plugin/commit/bb2b50f075d327285d1a90fc6668b5e66e1541ea))
+- **deps-dev:** bump @types/jest from 26.0.23 to 27.0.1
+  ([2079fc5](https://github.com/ridedott/eslint-plugin/commit/2079fc5732dff6b20e3c012269ed96087eb80b09))
+- **deps-dev:** bump cspell from 5.3.7 to 5.7.2
+  ([1f03890](https://github.com/ridedott/eslint-plugin/commit/1f0389025a080c1eee880a0279130e512411129d))
+- **deps-dev:** bump husky from 5.1.3 to 7.0.1
+  ([4e2070c](https://github.com/ridedott/eslint-plugin/commit/4e2070cd7024a7efb96bb2cfdec0abbd4af247d7))
+- **deps-dev:** bump typescript from 4.2.4 to 4.3.5
+  ([924b10d](https://github.com/ridedott/eslint-plugin/commit/924b10d923c10621747aff4f32875ca9fcdac281))
+
 ## [1.6.214](https://github.com/ridedott/eslint-plugin/compare/v1.6.213...v1.6.214) (2021-08-19)
 
 ### Chores
