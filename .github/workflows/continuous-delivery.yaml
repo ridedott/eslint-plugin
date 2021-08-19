@@ -31,38 +31,47 @@ jobs:
         run: npm ci --ignore-scripts --no-audit --no-progress --prefer-offline
       - name: Build
         run: npm run build
-      - name: Release
-        # Prevent version bumps of @ridedott/eslint-config from triggering a release.
-        if:
-          contains(github.event.commits[0].message, 'chore(deps-dev)&#58; bump
-          @ridedott/eslint-config') == false
-        env:
+      - env:
           GITHUB_TOKEN: ${{ secrets.DOTTBOTT_TOKEN }}
-        id: build_package
-        uses: ridedott/release-me-action@master
+        id: release
+        name: Release
+        uses: ridedott/release-me-action@v3.5.49
         with:
           node-module: true
+          release-rules: |
+            [
+              { "release": "patch", "type": "build" },
+              { "release": "patch", "type": "chore" },
+              { "release": "patch", "scope": "deps-dev", "subject": "bump typescript*", "type": "chore" },
+              { "release": "patch", "type": "ci" },
+              { "release": "patch", "type": "docs" },
+              { "release": "patch", "type": "improvement" },
+              { "release": "patch", "type": "refactor" },
+              { "release": false, "scope": "deps-dev", "type": "chore" },
+              { "release": false, "subject": "*\\[skip release\\]*" }
+            ]
       - name: Setup Node.js
         uses: actions/setup-node@v2.1.5
         with:
           registry-url: 'https://npm.pkg.github.com'
-      - name: Publish to GitHub Packages
-        env:
+      - env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        if: steps.build_package.outputs.released == 'true'
+        if: steps.release.outputs.released == 'true'
+        name: Publish to GitHub Packages
         run: npm publish
-      - name: Setup Node.js
+      - if: steps.release.outputs.released == 'true'
+        name: Setup Node.js
         uses: actions/setup-node@v2.1.5
         with:
           registry-url: 'https://registry.npmjs.org'
           scope: '@ridedott'
-      - name: Publish to npm
-        env:
+      - env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        if: steps.build_package.outputs.released == 'true'
+        if: steps.release.outputs.released == 'true'
+        name: Publish to npm
         run: npm publish
-      - name: Output
-        if: steps.build_package.outputs.released == 'true'
+      - if: steps.release.outputs.released == 'true'
+        name: Output
         run: |
-          echo released version: ${{ steps.build_package.outputs.version }}, type: ${{ steps.build_package.outputs.level }}
+          echo released version: ${{ steps.release.outputs.version }}, type: ${{ steps.release.outputs.level }}
     timeout-minutes: 5
