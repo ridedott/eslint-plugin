@@ -1,3 +1,10 @@
+## [1.6.213](https://github.com/ridedott/eslint-plugin/compare/v1.6.212...v1.6.213) (2021-08-19)
+
+### Continuous Integration
+
+- disable pre-releases
+  ([b672995](https://github.com/ridedott/eslint-plugin/commit/b6729956f33fd927f9e6fd56443be801a0d48ff7))
+
 ## [1.6.212](https://github.com/ridedott/eslint-plugin/compare/v1.6.211...v1.6.212) (2021-08-19)
 
 ### Continuous Integration
