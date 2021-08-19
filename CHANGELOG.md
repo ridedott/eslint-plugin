@@ -1,3 +1,14 @@
+## [1.6.216](https://github.com/ridedott/eslint-plugin/compare/v1.6.215...v1.6.216) (2021-08-19)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/experimental-utils
+  ([e7da96b](https://github.com/ridedott/eslint-plugin/commit/e7da96b87c292918fd02b476ac26d714e38391c4))
+- **deps:** bump @typescript-eslint/parser from 4.22.0 to 4.29.2
+  ([362d0d2](https://github.com/ridedott/eslint-plugin/commit/362d0d2da6c8a1d8b71108e902b82a9225a3c739))
+- **deps-dev:** bump ts-node from 9.1.1 to 10.2.1
+  ([648a29c](https://github.com/ridedott/eslint-plugin/commit/648a29c9f91fd779767f5a2c1e3a06efbe0d667e))
+
 ## [1.6.215](https://github.com/ridedott/eslint-plugin/compare/v1.6.214...v1.6.215) (2021-08-19)
 
 ### Chores
