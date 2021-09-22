@@ -1,3 +1,14 @@
+## [1.6.231](https://github.com/ridedott/eslint-plugin/compare/v1.6.230...v1.6.231) (2021-09-22)
+
+### Chores
+
+- **deps-dev:** bump @types/jest from 27.0.1 to 27.0.2
+  ([bcad98c](https://github.com/ridedott/eslint-plugin/commit/bcad98c1c91b1a4c8ec4593c6e54ae5fd4d51cbb))
+- **deps-dev:** bump cspell from 5.9.1 to 5.10.1
+  ([6f8e8a9](https://github.com/ridedott/eslint-plugin/commit/6f8e8a9389e8fc894c3caafc07833c666b73af79))
+- **deps:** bump @typescript-eslint/experimental-utils
+  ([504f567](https://github.com/ridedott/eslint-plugin/commit/504f56768df76581afdeb192a199843a477a658f))
+
 ## [1.6.230](https://github.com/ridedott/eslint-plugin/compare/v1.6.229...v1.6.230) (2021-09-22)
 
 ### Chores
