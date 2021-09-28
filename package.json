@@ -11,7 +11,7 @@
   "description": "ESLint plugin for custom rules.",
   "devDependencies": {
     "@commitlint/cli": "^13.2.0",
-    "@commitlint/config-conventional": "^13.1.0",
+    "@commitlint/config-conventional": "^13.2.0",
     "@ridedott/eslint-config": "^2.13.12",
     "@types/jest": "^27.0.2",
     "@types/node": "^12.20.11",
