@@ -1,3 +1,12 @@
+## [1.6.235](https://github.com/ridedott/eslint-plugin/compare/v1.6.234...v1.6.235) (2021-09-28)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/config-conventional
+  ([10e5f00](https://github.com/ridedott/eslint-plugin/commit/10e5f00d899074b6f45cdf4c6fe47bf5bf254cb9))
+- **deps:** bump @typescript-eslint/parser from 4.31.2 to 4.32.0
+  ([da55abe](https://github.com/ridedott/eslint-plugin/commit/da55abecd77cfa4955b797ab200237d9428809b4))
+
 ## [1.6.234](https://github.com/ridedott/eslint-plugin/compare/v1.6.233...v1.6.234) (2021-09-28)
 
 ### Chores
