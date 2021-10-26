@@ -1,3 +1,18 @@
+## [1.6.249](https://github.com/ridedott/eslint-plugin/compare/v1.6.248...v1.6.249) (2021-10-26)
+
+### Chores
+
+- **deps-dev:** bump husky from 7.0.2 to 7.0.4
+  ([669ad1c](https://github.com/ridedott/eslint-plugin/commit/669ad1ce499e2ea5342d078549c8ab1139db0b10))
+- **deps-dev:** bump lint-staged from 11.2.3 to 11.2.4
+  ([4f8edd3](https://github.com/ridedott/eslint-plugin/commit/4f8edd37902b99a30446b500ae9e10822752eb66))
+- **deps-dev:** bump ts-node from 10.3.0 to 10.3.1
+  ([449b1a8](https://github.com/ridedott/eslint-plugin/commit/449b1a8e500f7b21b0c9a8ab8f7340d31acadbff))
+- **deps-dev:** bump ts-node from 10.3.1 to 10.4.0
+  ([95eb1b2](https://github.com/ridedott/eslint-plugin/commit/95eb1b2e5329ed45d9a794d5f3a5a3424e88bfbe))
+- **deps:** bump @typescript-eslint/parser from 5.1.0 to 5.2.0
+  ([764e2cf](https://github.com/ridedott/eslint-plugin/commit/764e2cf28fc8821527bde6dab47412f7c6bc2011))
+
 ## [1.6.248](https://github.com/ridedott/eslint-plugin/compare/v1.6.247...v1.6.248) (2021-10-20)
 
 ### Chores
