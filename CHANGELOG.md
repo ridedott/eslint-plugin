@@ -1,3 +1,14 @@
+## [1.6.250](https://github.com/ridedott/eslint-plugin/compare/v1.6.249...v1.6.250) (2021-11-01)
+
+### Chores
+
+- **deps-dev:** bump cspell from 5.12.3 to 5.12.4
+  ([d68715c](https://github.com/ridedott/eslint-plugin/commit/d68715c6e20c23e781562a6ae9e8f24262117e3b))
+- **deps-dev:** bump lint-staged from 11.2.4 to 11.2.6
+  ([27a8518](https://github.com/ridedott/eslint-plugin/commit/27a85188c57147ceaefad2a2da9ccf021e75a1a2))
+- **deps:** bump ridedott/release-me-action from 3.6.7 to 3.6.9
+  ([7968f4d](https://github.com/ridedott/eslint-plugin/commit/7968f4d793ac554ce94ac372101d9d8fceed3307))
+
 ## [1.6.249](https://github.com/ridedott/eslint-plugin/compare/v1.6.248...v1.6.249) (2021-10-26)
 
 ### Chores
