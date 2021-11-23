@@ -1,3 +1,18 @@
+## [1.6.258](https://github.com/ridedott/eslint-plugin/compare/v1.6.257...v1.6.258) (2021-11-23)
+
+### Chores
+
+- **deps-dev:** bump @types/jest from 27.0.2 to 27.0.3
+  ([222b41e](https://github.com/ridedott/eslint-plugin/commit/222b41e918717631bcb7832590fd52c769b29c74))
+- **deps-dev:** bump lint-staged from 12.0.2 to 12.0.3
+  ([485d6aa](https://github.com/ridedott/eslint-plugin/commit/485d6aa1a9315945c9c4f9534662705a8818e1fd))
+- **deps-dev:** bump lint-staged from 12.0.3 to 12.1.1
+  ([728e6ce](https://github.com/ridedott/eslint-plugin/commit/728e6ce66f90aaadcd0bb6e7008401946fb49a7e))
+- **deps-dev:** bump lint-staged from 12.1.1 to 12.1.2
+  ([eaf6664](https://github.com/ridedott/eslint-plugin/commit/eaf66641d40f109dec5c077058db3949a7bcea37))
+- **deps:** bump actions/cache from 2.1.6 to 2.1.7
+  ([5218763](https://github.com/ridedott/eslint-plugin/commit/5218763b2e67d70f48949d777ffe62011626ef70))
+
 ## [1.6.257](https://github.com/ridedott/eslint-plugin/compare/v1.6.256...v1.6.257) (2021-11-18)
 
 ### Chores
