@@ -1,3 +1,22 @@
+## [1.6.279](https://github.com/ridedott/eslint-plugin/compare/v1.6.278...v1.6.279) (2022-02-14)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 16.1.0 to 16.2.1
+  ([71ffc9a](https://github.com/ridedott/eslint-plugin/commit/71ffc9afd5d3e968132e7883341de87861f3e826))
+- **deps-dev:** bump @commitlint/config-conventional
+  ([f255a30](https://github.com/ridedott/eslint-plugin/commit/f255a30f9008a405b1e6e2d7a8053943e03e5725))
+- **deps-dev:** bump lint-staged from 12.3.3 to 12.3.4
+  ([c51037d](https://github.com/ridedott/eslint-plugin/commit/c51037d5fee4bceaef3b93c7776064f9a79b05aa))
+- **deps:** bump hosted-git-info from 2.8.8 to 2.8.9
+  ([6d317fc](https://github.com/ridedott/eslint-plugin/commit/6d317fc4a1dfb42a772ea1dc4c242e06102237fd))
+- **deps:** bump path-parse from 1.0.6 to 1.0.7
+  ([f4eb176](https://github.com/ridedott/eslint-plugin/commit/f4eb17684a23b068a9c1c7dae2a183e4850e6415))
+- **deps:** bump tmpl from 1.0.4 to 1.0.5
+  ([22ca711](https://github.com/ridedott/eslint-plugin/commit/22ca711f64a4e596f8cbee5a91019c1345f5cab6))
+- **deps:** bump ws from 7.3.1 to 7.5.7
+  ([84662db](https://github.com/ridedott/eslint-plugin/commit/84662db9f25c71ab28ec0075d2f31e0e0d9d3b62))
+
 ## [1.6.278](https://github.com/ridedott/eslint-plugin/compare/v1.6.277...v1.6.278) (2022-02-08)
 
 ### Chores
