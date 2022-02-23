@@ -22,8 +22,7 @@ ruleTester.run('no-template-literals-without-expression', rule, {
       output: "'Single line template literal without expressions'",
     },
     {
-      code:
-        "`Single line template literal without expressions with 'single quotes'`",
+      code: "`Single line template literal without expressions with 'single quotes'`",
       errors: [
         {
           column: 1,
