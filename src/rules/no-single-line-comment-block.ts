@@ -115,7 +115,6 @@ export default createRule({
   defaultOptions: [{ ignore: [], ignorePatterns: [] }],
   meta: {
     docs: {
-      category: 'Best Practices',
       description: 'Single line comments should not be in a block comment.',
       recommended: false,
     },
