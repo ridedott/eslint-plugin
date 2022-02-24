@@ -1,3 +1,14 @@
+## [1.6.282](https://github.com/ridedott/eslint-plugin/compare/v1.6.281...v1.6.282) (2022-02-24)
+
+### Chores
+
+- **deps-dev:** bump @types/jest from 27.4.0 to 27.4.1
+  ([8a1f01f](https://github.com/ridedott/eslint-plugin/commit/8a1f01f42b8530396cb2fdc4ae18ec0611cd2698))
+- **deps-dev:** bump prettier from 2.2.1 to 2.5.1
+  ([02d82fc](https://github.com/ridedott/eslint-plugin/commit/02d82fc60c6cb23db7e0889ddca9baf53af312d1))
+- **deps:** bump @typescript-eslint/experimental-utils from 4.33.0 to 5.12.1
+  ([a0d8d55](https://github.com/ridedott/eslint-plugin/commit/a0d8d5549c0a7fc26d1e036902caa8784fcbe6c1))
+
 ## [1.6.281](https://github.com/ridedott/eslint-plugin/compare/v1.6.280...v1.6.281) (2022-02-22)
 
 ### Chores
