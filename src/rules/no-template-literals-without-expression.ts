@@ -91,7 +91,6 @@ export default createRule({
   defaultOptions: [{ ignoreMultiline: false }],
   meta: {
     docs: {
-      category: 'Best Practices',
       description: 'There should not be template literals without expressions.',
       recommended: false,
     },
