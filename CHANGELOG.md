@@ -1,3 +1,10 @@
+## [1.6.288](https://github.com/ridedott/eslint-plugin/compare/v1.6.287...v1.6.288) (2022-03-02)
+
+### Chores
+
+- switch to non-experimental utils
+  ([c9b873c](https://github.com/ridedott/eslint-plugin/commit/c9b873ca4f09a3061a03ddce8f1b720894163320))
+
 ## [1.6.287](https://github.com/ridedott/eslint-plugin/compare/v1.6.286...v1.6.287) (2022-03-02)
 
 ### Chores
