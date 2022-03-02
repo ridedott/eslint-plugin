@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 /* eslint-disable new-cap */
 
-import { ESLintUtils } from '@typescript-eslint/experimental-utils';
+import { ESLintUtils } from '@typescript-eslint/utils';
 import { parse as parsePath } from 'path';
 
 /**

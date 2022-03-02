@@ -1,6 +1,6 @@
 /* eslint-disable no-template-curly-in-string */
 /* eslint-disable unicorn/filename-case */
-import { TSESLint } from '@typescript-eslint/experimental-utils';
+import { TSESLint } from '@typescript-eslint/utils';
 
 import rule from '../../src/rules/no-template-literals-without-expression';
 
