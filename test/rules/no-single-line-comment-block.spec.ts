@@ -1,5 +1,5 @@
 /* eslint-disable unicorn/filename-case */
-import { TSESLint } from '@typescript-eslint/experimental-utils';
+import { TSESLint } from '@typescript-eslint/utils';
 
 import rule from '../../src/rules/no-single-line-comment-block';
 
