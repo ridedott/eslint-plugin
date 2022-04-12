@@ -1,3 +1,12 @@
+## [1.6.306](https://github.com/ridedott/eslint-plugin/compare/v1.6.305...v1.6.306) (2022-04-12)
+
+### Chores
+
+- **deps:** bump actions/setup-node from 3.1.0 to 3.1.1
+  ([d635bbf](https://github.com/ridedott/eslint-plugin/commit/d635bbfd2017f3f942ee64c18b49dd567eba731c))
+- **deps:** bump ridedott/release-me-action from 3.6.33 to 3.6.34
+  ([a0cbe00](https://github.com/ridedott/eslint-plugin/commit/a0cbe000656419f2c1a83cafe288744a41b88d61))
+
 ## [1.6.305](https://github.com/ridedott/eslint-plugin/compare/v1.6.304...v1.6.305) (2022-04-12)
 
 ### Chores
