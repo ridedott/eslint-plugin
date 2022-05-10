@@ -1,3 +1,14 @@
+## [1.6.315](https://github.com/ridedott/eslint-plugin/compare/v1.6.314...v1.6.315) (2022-05-10)
+
+### Chores
+
+- **deps-dev:** bump husky from 7.0.4 to 8.0.0
+  ([a28bc98](https://github.com/ridedott/eslint-plugin/commit/a28bc98b34f6abd677ccff3413bc3a36d8c0da33))
+- **deps-dev:** bump husky from 8.0.0 to 8.0.1
+  ([b723d78](https://github.com/ridedott/eslint-plugin/commit/b723d782272903ca1656638782f51dce4e0e9caa))
+- **deps:** bump @typescript-eslint/parser from 5.22.0 to 5.23.0
+  ([fb253fc](https://github.com/ridedott/eslint-plugin/commit/fb253fc93242b459d31ef783a67c3e12cd58750a))
+
 ## [1.6.314](https://github.com/ridedott/eslint-plugin/compare/v1.6.313...v1.6.314) (2022-05-06)
 
 ### Chores
