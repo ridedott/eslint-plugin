@@ -1,3 +1,12 @@
+## [1.6.317](https://github.com/ridedott/eslint-plugin/compare/v1.6.316...v1.6.317) (2022-05-16)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 16.2.4 to 16.3.0
+  ([cabe383](https://github.com/ridedott/eslint-plugin/commit/cabe3833a6e80fdfb47ecc6ea05cde6f892773b0))
+- **deps:** bump ridedott/release-me-action from 3.6.37 to 3.6.38
+  ([da6d132](https://github.com/ridedott/eslint-plugin/commit/da6d132578ebcfeb472462615f232e42226c002b))
+
 ## [1.6.316](https://github.com/ridedott/eslint-plugin/compare/v1.6.315...v1.6.316) (2022-05-10)
 
 ### Chores
