@@ -1,3 +1,12 @@
+## [1.6.322](https://github.com/ridedott/eslint-plugin/compare/v1.6.321...v1.6.322) (2022-05-24)
+
+### Chores
+
+- **deps-dev:** bump ts-node from 10.7.0 to 10.8.0
+  ([df70c18](https://github.com/ridedott/eslint-plugin/commit/df70c18c5fc60483411fd942c287c76b373f9273))
+- **deps:** bump @typescript-eslint/utils from 5.25.0 to 5.26.0
+  ([31bd13e](https://github.com/ridedott/eslint-plugin/commit/31bd13e60a020d53872ebdbf3980873b60f0597b))
+
 ## [1.6.321](https://github.com/ridedott/eslint-plugin/compare/v1.6.320...v1.6.321) (2022-05-18)
 
 ### Chores
