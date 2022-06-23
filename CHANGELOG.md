@@ -1,3 +1,10 @@
+## [1.6.338](https://github.com/ridedott/eslint-plugin/compare/v1.6.337...v1.6.338) (2022-06-23)
+
+### Chores
+
+- **deps:** bump jsdom from 16.4.0 to 16.7.0
+  ([df225c7](https://github.com/ridedott/eslint-plugin/commit/df225c7924631ea43312e389a1c19039cabaea38))
+
 ## [1.6.337](https://github.com/ridedott/eslint-plugin/compare/v1.6.336...v1.6.337) (2022-06-23)
 
 ### Chores
