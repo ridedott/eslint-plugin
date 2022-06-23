@@ -1,3 +1,10 @@
+## [1.6.337](https://github.com/ridedott/eslint-plugin/compare/v1.6.336...v1.6.337) (2022-06-23)
+
+### Chores
+
+- **deps:** bump shell-quote from 1.7.2 to 1.7.3
+  ([772dd70](https://github.com/ridedott/eslint-plugin/commit/772dd70e1696bdeb66351108d76e57ec6633794f))
+
 ## [1.6.336](https://github.com/ridedott/eslint-plugin/compare/v1.6.335...v1.6.336) (2022-06-21)
 
 ### Chores
