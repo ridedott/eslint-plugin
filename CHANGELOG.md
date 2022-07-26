@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/ridedott/eslint-plugin/compare/v1.6.355...v1.7.0) (2022-07-26)
+
+### Features
+
+- update node to v14
+  ([2cf3c3b](https://github.com/ridedott/eslint-plugin/commit/2cf3c3b3daf6fd581819eee65ae18255f1b769f6))
+
 ## [1.6.355](https://github.com/ridedott/eslint-plugin/compare/v1.6.354...v1.6.355) (2022-07-26)
 
 ### Chores
