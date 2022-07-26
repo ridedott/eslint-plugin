@@ -5,8 +5,8 @@
     }
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^5.30.7",
-    "@typescript-eslint/utils": "^5.30.7"
+    "@typescript-eslint/parser": "^5.31.0",
+    "@typescript-eslint/utils": "^5.31.0"
   },
   "description": "ESLint plugin for custom rules.",
   "devDependencies": {
@@ -77,5 +77,5 @@
     "test:watch": "jest --watch --verbose false",
     "types": "tsc --noEmit"
   },
-  "version": "1.6.352"
+  "version": "1.6.355"
 }
