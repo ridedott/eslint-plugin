@@ -1,3 +1,14 @@
+## [1.7.8](https://github.com/ridedott/eslint-plugin/compare/v1.7.7...v1.7.8) (2022-08-23)
+
+### Chores
+
+- **deps-dev:** bump cspell from 6.6.1 to 6.7.0
+  ([5c4fc74](https://github.com/ridedott/eslint-plugin/commit/5c4fc740c0c33cc47e58fb2c353f820f6318119b))
+- **deps-dev:** bump cspell from 6.7.0 to 6.8.0
+  ([ba5408f](https://github.com/ridedott/eslint-plugin/commit/ba5408f8cfa7dfb516581e3ddb65958fd5060212))
+- **deps:** bump @typescript-eslint/parser from 5.33.1 to 5.34.0
+  ([5ed4733](https://github.com/ridedott/eslint-plugin/commit/5ed4733a4066be4c6800361ef5d20c89b7313edf))
+
 ## [1.7.7](https://github.com/ridedott/eslint-plugin/compare/v1.7.6...v1.7.7) (2022-08-16)
 
 ### Chores
