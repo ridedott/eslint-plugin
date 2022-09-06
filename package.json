@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "@typescript-eslint/parser": "^5.36.1",
-    "@typescript-eslint/utils": "^5.36.1"
+    "@typescript-eslint/utils": "^5.36.2"
   },
   "description": "ESLint plugin for custom rules.",
   "devDependencies": {
