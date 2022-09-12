@@ -1,5 +1,4 @@
-/* eslint-disable no-template-curly-in-string */
-/* eslint-disable unicorn/filename-case */
+/* eslint-disable unicorn/filename-case, no-template-curly-in-string */
 import { TSESLint } from '@typescript-eslint/utils';
 
 import rule from '../../src/rules/no-template-literals-without-expression';
@@ -8,6 +7,7 @@ const ruleTester = new TSESLint.RuleTester({
   parser: require.resolve('@typescript-eslint/parser'),
 });
 
+/* eslint-disable-next-line jest/require-hook */
 ruleTester.run('no-template-literals-without-expression', rule, {
   invalid: [
     {

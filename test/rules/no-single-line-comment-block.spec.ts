@@ -5,6 +5,7 @@ import rule from '../../src/rules/no-single-line-comment-block';
 
 const ruleTester = new TSESLint.RuleTester();
 
+/* eslint-disable-next-line jest/require-hook */
 ruleTester.run('no-single-line-comment-block', rule, {
   invalid: [
     {
