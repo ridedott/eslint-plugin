@@ -1,3 +1,14 @@
+## [1.7.29](https://github.com/ridedott/eslint-plugin/compare/v1.7.28...v1.7.29) (2022-09-28)
+
+### Chores
+
+- **deps-dev:** bump typescript from 4.8.3 to 4.8.4
+  ([0b4270a](https://github.com/ridedott/eslint-plugin/commit/0b4270ac71cb70e7de93c52e37d9f56b4d6bf7f1))
+- **deps:** bump actions/setup-node from 3.4.1 to 3.5.0
+  ([81d6612](https://github.com/ridedott/eslint-plugin/commit/81d6612f5a4320e9000e29e704ead3edb00e00a5))
+- **deps:** bump ridedott/release-me-action from 3.6.57 to 3.6.59
+  ([d04c0ff](https://github.com/ridedott/eslint-plugin/commit/d04c0ff28cb98c5e6e56ff5985e19abd7d41b7c7))
+
 ## [1.7.28](https://github.com/ridedott/eslint-plugin/compare/v1.7.27...v1.7.28) (2022-09-27)
 
 ### Chores
