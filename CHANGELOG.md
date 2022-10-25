@@ -1,3 +1,10 @@
+## [1.7.39](https://github.com/ridedott/eslint-plugin/compare/v1.7.38...v1.7.39) (2022-10-25)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/utils from 5.40.1 to 5.41.0
+  ([d7bc77e](https://github.com/ridedott/eslint-plugin/commit/d7bc77e48361e998dea1f5f94169b53a8a1f9083))
+
 ## [1.7.38](https://github.com/ridedott/eslint-plugin/compare/v1.7.37...v1.7.38) (2022-10-25)
 
 ### Chores
