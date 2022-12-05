@@ -1,3 +1,16 @@
+## [1.7.52](https://github.com/ridedott/eslint-plugin/compare/v1.7.51...v1.7.52) (2022-12-05)
+
+### Chores
+
+- **deps-dev:** bump cspell from 6.15.0 to 6.15.1
+  ([6cf81c0](https://github.com/ridedott/eslint-plugin/commit/6cf81c05e87e6da4a61a2428bf0675c792bb2f2e))
+- **deps-dev:** bump cspell from 6.15.1 to 6.16.0
+  ([262ae9e](https://github.com/ridedott/eslint-plugin/commit/262ae9e5b59b53dcf6897fd05c75995139a0953d))
+- **deps-dev:** bump lint-staged from 13.0.4 to 13.1.0
+  ([49bc49b](https://github.com/ridedott/eslint-plugin/commit/49bc49bcf686afd1bb4917836f470446b8700ee8))
+- **deps:** bump decode-uri-component from 0.2.0 to 0.2.2
+  ([9e9c7fa](https://github.com/ridedott/eslint-plugin/commit/9e9c7fac131e41f9858c6a61645738e0dc3b1b7d))
+
 ## [1.7.51](https://github.com/ridedott/eslint-plugin/compare/v1.7.50...v1.7.51) (2022-11-29)
 
 ### Chores
