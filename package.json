@@ -15,7 +15,7 @@
     "@ridedott/eslint-config": "^2.13.12",
     "@types/jest": "^27.5.0",
     "@types/node": "^14.18.22",
-    "commitizen": "^4.2.5",
+    "commitizen": "^4.2.6",
     "cspell": "^6.17.0",
     "eslint": "^7.32.0",
     "husky": "^8.0.2",
