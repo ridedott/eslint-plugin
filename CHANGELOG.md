@@ -1,3 +1,16 @@
+## [1.7.56](https://github.com/ridedott/eslint-plugin/compare/v1.7.55...v1.7.56) (2022-12-08)
+
+### Chores
+
+- **deps-dev:** bump commitizen from 4.2.5 to 4.2.6
+  ([dbbc63e](https://github.com/ridedott/eslint-plugin/commit/dbbc63ed9f6eadc8c240c4c3a9d8247f5ba72d62))
+- **deps-dev:** bump prettier from 2.8.0 to 2.8.1
+  ([3159b89](https://github.com/ridedott/eslint-plugin/commit/3159b891a246a267a65bb4e710f0ca25a9515c47))
+- **deps-dev:** bump typescript from 4.9.3 to 4.9.4
+  ([bbc091b](https://github.com/ridedott/eslint-plugin/commit/bbc091b401d4652e718cd5d91edb5d939941af08))
+- **deps:** bump ridedott/release-me-action from 3.6.67 to 3.7.1
+  ([94a9aaa](https://github.com/ridedott/eslint-plugin/commit/94a9aaabfcfb97d5d17e9640d1a82c6696a0dbaa))
+
 ## [1.7.55](https://github.com/ridedott/eslint-plugin/compare/v1.7.54...v1.7.55) (2022-12-06)
 
 ### Chores
