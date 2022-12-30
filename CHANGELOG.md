@@ -1,3 +1,10 @@
+## [1.7.65](https://github.com/ridedott/eslint-plugin/compare/v1.7.64...v1.7.65) (2022-12-30)
+
+### Chores
+
+- **deps:** bump json5 and tsconfig-paths
+  ([e13e495](https://github.com/ridedott/eslint-plugin/commit/e13e49527e19a7f4a48d1a0d962beb7e926ffc0c))
+
 ## [1.7.64](https://github.com/ridedott/eslint-plugin/compare/v1.7.63...v1.7.64) (2022-12-30)
 
 ### Chores
