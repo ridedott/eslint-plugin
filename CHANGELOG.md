@@ -1,3 +1,12 @@
+## [1.7.68](https://github.com/ridedott/eslint-plugin/compare/v1.7.67...v1.7.68) (2023-01-04)
+
+### Chores
+
+- **deps-dev:** bump husky from 8.0.2 to 8.0.3
+  ([c62bb93](https://github.com/ridedott/eslint-plugin/commit/c62bb93012358df1ae2cfbe2f71632d3f96fad9d))
+- **deps:** bump json5 from 1.0.1 to 1.0.2
+  ([e310cba](https://github.com/ridedott/eslint-plugin/commit/e310cba664fbd28203ed1f34e1fa1cfae2278eaf))
+
 ## [1.7.67](https://github.com/ridedott/eslint-plugin/compare/v1.7.66...v1.7.67) (2023-01-03)
 
 ### Chores
