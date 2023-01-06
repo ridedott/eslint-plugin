@@ -1,3 +1,12 @@
+## [1.7.69](https://github.com/ridedott/eslint-plugin/compare/v1.7.68...v1.7.69) (2023-01-06)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/config-conventional
+  ([1df3ee7](https://github.com/ridedott/eslint-plugin/commit/1df3ee7846fb874b5818a3844d933ee15cef12c8))
+- **deps:** bump actions/setup-node from 3.5.1 to 3.6.0
+  ([d777f0e](https://github.com/ridedott/eslint-plugin/commit/d777f0ed6c47df48629816316ba2e2103c2c6bd7))
+
 ## [1.7.68](https://github.com/ridedott/eslint-plugin/compare/v1.7.67...v1.7.68) (2023-01-04)
 
 ### Chores
