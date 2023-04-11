@@ -1,3 +1,12 @@
+## [1.7.97](https://github.com/ridedott/eslint-plugin/compare/v1.7.96...v1.7.97) (2023-04-11)
+
+### Chores
+
+- **deps-dev:** bump lint-staged from 13.2.0 to 13.2.1
+  ([9b65db1](https://github.com/ridedott/eslint-plugin/commit/9b65db1bca3b52ab65a1ea008b67af06c37e007d))
+- **deps:** bump @typescript-eslint/utils from 5.57.1 to 5.58.0
+  ([47e6549](https://github.com/ridedott/eslint-plugin/commit/47e6549f317af162db113103d89aaba3b6a0e66c))
+
 ## [1.7.96](https://github.com/ridedott/eslint-plugin/compare/v1.7.95...v1.7.96) (2023-04-04)
 
 ### Chores
