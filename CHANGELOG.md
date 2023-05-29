@@ -1,3 +1,10 @@
+## [1.7.111](https://github.com/ridedott/eslint-plugin/compare/v1.7.110...v1.7.111) (2023-05-29)
+
+### Chores
+
+- **deps:** bump ridedott/release-me-action from 3.7.5 to 3.8.1
+  ([ace1e23](https://github.com/ridedott/eslint-plugin/commit/ace1e234bbba02ed84cdc3d9df1dfd909de491fe))
+
 ## [1.7.110](https://github.com/ridedott/eslint-plugin/compare/v1.7.109...v1.7.110) (2023-05-23)
 
 ### Chores
