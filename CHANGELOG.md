@@ -1,3 +1,12 @@
+## [1.7.121](https://github.com/ridedott/eslint-plugin/compare/v1.7.120...v1.7.121) (2023-07-09)
+
+### Chores
+
+- **deps-dev:** bump prettier from 2.8.8 to 3.0.0
+  ([56473b7](https://github.com/ridedott/eslint-plugin/commit/56473b72ddd7dea9286b9e978d84cd8c50475360))
+- **deps:** bump tough-cookie from 4.0.0 to 4.1.3
+  ([ddf8472](https://github.com/ridedott/eslint-plugin/commit/ddf8472d6262a363de0b12ae6b9a06446cba960d))
+
 ## [1.7.120](https://github.com/ridedott/eslint-plugin/compare/v1.7.119...v1.7.120) (2023-07-06)
 
 ### Chores
