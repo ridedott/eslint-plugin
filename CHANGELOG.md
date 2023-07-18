@@ -1,3 +1,12 @@
+## [1.7.123](https://github.com/ridedott/eslint-plugin/compare/v1.7.122...v1.7.123) (2023-07-18)
+
+### Chores
+
+- **deps-dev:** bump cspell from 6.31.1 to 6.31.2
+  ([5f7e533](https://github.com/ridedott/eslint-plugin/commit/5f7e53393f2617616ee7d425c16b805a02f4970c))
+- **deps:** bump word-wrap from 1.2.3 to 1.2.4
+  ([2f5869c](https://github.com/ridedott/eslint-plugin/commit/2f5869c95b02950eb7c6628d26bf9b7c2ea58b02))
+
 ## [1.7.122](https://github.com/ridedott/eslint-plugin/compare/v1.7.121...v1.7.122) (2023-07-10)
 
 ### Chores
