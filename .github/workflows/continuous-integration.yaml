@@ -18,7 +18,7 @@ jobs:
         with:
           persist-credentials: false
       - name: Setup Node.js
-        uses: actions/setup-node@v3.7.0
+        uses: actions/setup-node@v3.8.0
         with:
           cache: 'npm'
           node-version: 14
@@ -36,7 +36,7 @@ jobs:
         with:
           persist-credentials: false
       - name: Setup Node.js
-        uses: actions/setup-node@v3.7.0
+        uses: actions/setup-node@v3.8.0
         with:
           cache: 'npm'
           node-version: 14
@@ -54,7 +54,7 @@ jobs:
         with:
           persist-credentials: false
       - name: Setup Node.js
-        uses: actions/setup-node@v3.7.0
+        uses: actions/setup-node@v3.8.0
         with:
           cache: 'npm'
           node-version: 14
@@ -72,7 +72,7 @@ jobs:
         with:
           persist-credentials: false
       - name: Setup Node.js
-        uses: actions/setup-node@v3.7.0
+        uses: actions/setup-node@v3.8.0
         with:
           cache: 'npm'
           node-version: 14
@@ -94,7 +94,7 @@ jobs:
         with:
           persist-credentials: false
       - name: Setup Node.js
-        uses: actions/setup-node@v3.7.0
+        uses: actions/setup-node@v3.8.0
         with:
           cache: 'npm'
           node-version: 14
