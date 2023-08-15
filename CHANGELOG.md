@@ -1,3 +1,26 @@
+## [1.7.124](https://github.com/ridedott/eslint-plugin/compare/v1.7.123...v1.7.124) (2023-08-15)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 17.6.6 to 17.6.7
+  ([a618f01](https://github.com/ridedott/eslint-plugin/commit/a618f01c2178c93152c534fc253d4d18d636361c))
+- **deps-dev:** bump @commitlint/cli from 17.6.7 to 17.7.0
+  ([7044c0f](https://github.com/ridedott/eslint-plugin/commit/7044c0f6d3651846bad53177b82ba9633e5627bc))
+- **deps-dev:** bump @commitlint/cli from 17.7.0 to 17.7.1
+  ([0c2897a](https://github.com/ridedott/eslint-plugin/commit/0c2897ab7791c16a3c7679d1eb8d4ef30e45bdee))
+- **deps-dev:** bump @commitlint/config-conventional
+  ([62a482a](https://github.com/ridedott/eslint-plugin/commit/62a482a13914ef8e3f82e5a295d2e38479b61355))
+- **deps-dev:** bump @commitlint/config-conventional
+  ([4c78116](https://github.com/ridedott/eslint-plugin/commit/4c781168a42148f0aef78a92203a262808fd5fa7))
+- **deps-dev:** bump cspell from 6.31.2 to 6.31.3
+  ([3739ab6](https://github.com/ridedott/eslint-plugin/commit/3739ab6f9c6e00caaa54d02858098f735a64cb8f))
+- **deps-dev:** bump lint-staged from 13.2.3 to 14.0.0
+  ([8d7f22b](https://github.com/ridedott/eslint-plugin/commit/8d7f22b441601ea56430ace3cd38048e7110cf30))
+- **deps-dev:** bump prettier from 3.0.0 to 3.0.1
+  ([59a0305](https://github.com/ridedott/eslint-plugin/commit/59a03052e2c8e7ea9b69d49137dff75bdb2db4cb))
+- **deps:** bump actions/setup-node from 3.7.0 to 3.8.0
+  ([3481a04](https://github.com/ridedott/eslint-plugin/commit/3481a0486cd04ce1fc9f7fa690fdc2a4dbd7b112))
+
 ## [1.7.123](https://github.com/ridedott/eslint-plugin/compare/v1.7.122...v1.7.123) (2023-07-18)
 
 ### Chores
