@@ -1,3 +1,13 @@
+## [1.7.125](https://github.com/ridedott/eslint-plugin/compare/v1.7.124...v1.7.125) (2023-08-17)
+
+### Chores
+
+- **deps-dev:** bump prettier from 3.0.1 to 3.0.2
+  ([3fa461f](https://github.com/ridedott/eslint-plugin/commit/3fa461fb54a0041244d149501488cd754887de3e))
+- Remove Platform team from dependabot reviewers (#1275)
+  ([4621730](https://github.com/ridedott/eslint-plugin/commit/4621730818f08571e1ba8e2ac1ae8aabacf3beee)),
+  closes [#1275](https://github.com/ridedott/eslint-plugin/issues/1275)
+
 ## [1.7.124](https://github.com/ridedott/eslint-plugin/compare/v1.7.123...v1.7.124) (2023-08-15)
 
 ### Chores
