@@ -1,3 +1,16 @@
+## [1.7.128](https://github.com/ridedott/eslint-plugin/compare/v1.7.127...v1.7.128) (2023-08-24)
+
+### Chores
+
+- **deps-dev:** bump lint-staged from 14.0.0 to 14.0.1
+  ([0ef5017](https://github.com/ridedott/eslint-plugin/commit/0ef5017eab0ab8fdd5c678533661e847ce04930c))
+
+### Code Refactoring
+
+- Github teams codeowners (#1282)
+  ([81ba6ed](https://github.com/ridedott/eslint-plugin/commit/81ba6edcfc885966b1aac2d42920ed1c20629f2f)),
+  closes [#1282](https://github.com/ridedott/eslint-plugin/issues/1282)
+
 ## [1.7.127](https://github.com/ridedott/eslint-plugin/compare/v1.7.126...v1.7.127) (2023-08-17)
 
 ### Chores
