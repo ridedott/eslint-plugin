@@ -1,3 +1,12 @@
+## [1.7.130](https://github.com/ridedott/eslint-plugin/compare/v1.7.129...v1.7.130) (2023-09-05)
+
+### Chores
+
+- **deps-dev:** bump prettier from 3.0.2 to 3.0.3
+  ([c30a4dc](https://github.com/ridedott/eslint-plugin/commit/c30a4dc6c4ee360eabf394271f8ee1e2b3da53a7))
+- **deps:** bump actions/checkout from 3 to 4
+  ([9951dba](https://github.com/ridedott/eslint-plugin/commit/9951dba67bf555e510dc0f6bce8a58cd128c3190))
+
 ## [1.7.129](https://github.com/ridedott/eslint-plugin/compare/v1.7.128...v1.7.129) (2023-08-25)
 
 ### Chores
