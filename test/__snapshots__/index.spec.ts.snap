@@ -1,29 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`rules exports configurations that refer to actual rules 1`] = `
-Object {
-  "all": Object {
+{
+  "all": {
     "parser": "@typescript-eslint/parser",
-    "parserOptions": Object {
+    "parserOptions": {
       "sourceType": "module",
     },
-    "plugins": Array [
+    "plugins": [
       "@ridedott",
     ],
-    "rules": Object {
+    "rules": {
       "@ridedott/no-single-line-comment-block": "error",
       "@ridedott/no-template-literals-without-expression": "error",
     },
   },
-  "recommended": Object {
+  "recommended": {
     "parser": "@typescript-eslint/parser",
-    "parserOptions": Object {
+    "parserOptions": {
       "sourceType": "module",
     },
-    "plugins": Array [
+    "plugins": [
       "@ridedott",
     ],
-    "rules": Object {
+    "rules": {
       "@ridedott/no-single-line-comment-block": "warn",
       "@ridedott/no-template-literals-without-expression": "warn",
     },

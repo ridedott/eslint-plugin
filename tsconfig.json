@@ -3,5 +3,5 @@
     "rootDir": "."
   },
   "extends": "./tsconfig.production.json",
-  "include": ["./**/*"]
+  "include": ["./**/*.ts"],
 }
