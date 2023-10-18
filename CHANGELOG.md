@@ -1,3 +1,20 @@
+## [1.7.131](https://github.com/ridedott/eslint-plugin/compare/v1.7.130...v1.7.131) (2023-10-18)
+
+### Chores
+
+- **deps-dev:** bump @babel/traverse from 7.14.0 to 7.23.2
+  ([d0c706e](https://github.com/ridedott/eslint-plugin/commit/d0c706ed455d649f2de0c74b175d3a8f914105a8))
+- **deps-dev:** bump @commitlint/cli from 17.7.1 to 17.7.2
+  ([c6eb55f](https://github.com/ridedott/eslint-plugin/commit/c6eb55f31f163b6621be2229151a6f7fad1029f3))
+- **deps-dev:** bump @commitlint/cli from 17.7.2 to 17.8.0
+  ([635e6b8](https://github.com/ridedott/eslint-plugin/commit/635e6b8772694fb463fb9fcf8abb6f19358cd2a5))
+- **deps-dev:** bump @commitlint/config-conventional
+  ([e87690f](https://github.com/ridedott/eslint-plugin/commit/e87690fae6a3b1b9ce86b751f640c8ce9c7b1c7a))
+- **deps-dev:** bump lint-staged from 14.0.1 to 15.0.1
+  ([4536112](https://github.com/ridedott/eslint-plugin/commit/4536112495861c8b67afbb65193e32a95b3012c3))
+- update deps
+  ([f209afd](https://github.com/ridedott/eslint-plugin/commit/f209afd97a6b49b3d36cc856df48a7e9b9cf196c))
+
 ## [1.7.130](https://github.com/ridedott/eslint-plugin/compare/v1.7.129...v1.7.130) (2023-09-05)
 
 ### Chores
