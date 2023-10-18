@@ -41,7 +41,7 @@ describe('rules', (): void => {
       );
       const isDocumented = await existsAsync(documentPath);
 
-      expect(isDocumented).toStrictEqual(true);
+      expect(isDocumented).toBe(true);
     },
   );
 

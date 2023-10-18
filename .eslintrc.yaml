@@ -2,6 +2,8 @@ env:
   es6: true
   node: true
 extends: '@ridedott/eslint-config'
+rules:
+  unicorn/filename-case: off
 overrides:
   - env:
       jest: true
@@ -14,6 +16,8 @@ overrides:
   - files:
       - src/rules/**
     rules:
+      '@typescript-eslint/no-unsafe-argument': off
+      '@typescript-eslint/no-redundant-type-constituents': off
       unicorn/filename-case: off
       unicorn/prevent-abbreviations: off
       sort-keys: 0

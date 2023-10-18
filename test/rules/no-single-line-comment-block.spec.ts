@@ -1,4 +1,5 @@
-/* eslint-disable unicorn/filename-case */
+/* eslint-disable jest/require-hook */
+ 
 import { TSESLint } from '@typescript-eslint/utils';
 
 import rule from '../../src/rules/no-single-line-comment-block';
