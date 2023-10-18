@@ -88,7 +88,6 @@ export default createRule({
   meta: {
     docs: {
       description: 'There should not be template literals without expressions.',
-      recommended: false,
     },
     fixable: 'code',
     messages: {

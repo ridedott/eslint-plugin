@@ -2,13 +2,12 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": false,
     "alwaysStrict": true,
-    "charset": "utf-8",
     "declaration": false,
     "downlevelIteration": false,
     "forceConsistentCasingInFileNames": true,
-    "importsNotUsedAsValues": "error",
-    "lib": ["ES2020"],
-    "module": "commonjs",
+    "verbatimModuleSyntax": false,
+    "lib": ["es2022"],
+    "module": "node16",
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
@@ -23,8 +22,10 @@
     "strictFunctionTypes": true,
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
-    "target": "ES2020",
+    "target": "es2022",
+    "moduleResolution": "node16",
     "typeRoots": ["./@types", "./node_modules/@types"]
   },
+  "exclude": ["node_modules"],
   "include": ["./src"]
 }

@@ -24,5 +24,5 @@ module.exports = {
   preset: 'ts-jest',
   resetMocks: true,
   roots: ['<rootDir>'],
-  testEnvironment: '<rootDir>/test/TestEnvironment.js',
+  testEnvironment: '<rootDir>/test/testEnvironment.mjs',
 };

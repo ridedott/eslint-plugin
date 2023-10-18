@@ -112,7 +112,6 @@ export default createRule({
   meta: {
     docs: {
       description: 'Single line comments should not be in a block comment.',
-      recommended: false,
     },
     fixable: 'code',
     messages: {
