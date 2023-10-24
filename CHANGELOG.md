@@ -1,3 +1,20 @@
+## [1.7.132](https://github.com/ridedott/eslint-plugin/compare/v1.7.131...v1.7.132) (2023-10-24)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 17.8.0 to 18.0.0
+  ([37f65b0](https://github.com/ridedott/eslint-plugin/commit/37f65b0e36b56855ba2b472a5d16e61719716ebf))
+- **deps-dev:** bump @commitlint/config-conventional
+  ([fb9e198](https://github.com/ridedott/eslint-plugin/commit/fb9e19819a81acf7dc03495f6cdffae39e7395e3))
+- **deps-dev:** bump @ridedott/eslint-config from 2.27.0 to 2.27.1
+  ([56f9dec](https://github.com/ridedott/eslint-plugin/commit/56f9decc47af0e9290d1f8214aa5f36081071778))
+- **deps-dev:** bump eslint from 8.51.0 to 8.52.0
+  ([c7befcc](https://github.com/ridedott/eslint-plugin/commit/c7befcce6efe5ce08c7cf9df209e07f8cef5d1f5))
+- **deps-dev:** bump lint-staged from 15.0.1 to 15.0.2
+  ([c22e4e0](https://github.com/ridedott/eslint-plugin/commit/c22e4e0d55387d5205e8220149aaad49bf20452a))
+- **deps:** bump actions/setup-node from 3.8.1 to 4.0.0
+  ([bc70bfa](https://github.com/ridedott/eslint-plugin/commit/bc70bfa8b8c7d3ffae8479dbc860d338920f9d5a))
+
 ## [1.7.131](https://github.com/ridedott/eslint-plugin/compare/v1.7.130...v1.7.131) (2023-10-18)
 
 ### Chores
