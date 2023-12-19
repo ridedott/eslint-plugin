@@ -1,3 +1,10 @@
+## [1.7.158](https://github.com/ridedott/eslint-plugin/compare/v1.7.157...v1.7.158) (2023-12-19)
+
+### Chores
+
+- **deps:** bump actions/setup-node from 4.0.0 to 4.0.1
+  ([9868be0](https://github.com/ridedott/eslint-plugin/commit/9868be0457516d33353fc0ae5e5d184cdca8c15b))
+
 ## [1.7.157](https://github.com/ridedott/eslint-plugin/compare/v1.7.156...v1.7.157) (2023-12-19)
 
 ### Chores

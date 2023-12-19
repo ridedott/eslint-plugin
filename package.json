@@ -78,5 +78,5 @@
     "test:watch": "jest --watch --verbose false",
     "types": "tsc --noEmit"
   },
-  "version": "1.7.157"
+  "version": "1.7.158"
 }
