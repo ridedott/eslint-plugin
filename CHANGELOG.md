@@ -1,3 +1,12 @@
+## [1.7.164](https://github.com/ridedott/eslint-plugin/compare/v1.7.163...v1.7.164) (2024-01-16)
+
+### Chores
+
+- **deps-dev:** bump prettier from 3.1.1 to 3.2.2
+  ([9d46b9f](https://github.com/ridedott/eslint-plugin/commit/9d46b9f22d939650312876d4ba7461ead32dceaf))
+- **deps:** bump @typescript-eslint/parser from 6.18.1 to 6.19.0
+  ([74f19a9](https://github.com/ridedott/eslint-plugin/commit/74f19a9146981fba867a98a717ec6a18fa6c2bcb))
+
 ## [1.7.163](https://github.com/ridedott/eslint-plugin/compare/v1.7.162...v1.7.163) (2024-01-09)
 
 ### Chores
