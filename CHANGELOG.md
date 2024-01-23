@@ -1,3 +1,20 @@
+## [1.7.168](https://github.com/ridedott/eslint-plugin/compare/v1.7.167...v1.7.168) (2024-01-23)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 18.4.4 to 18.5.0
+  ([a5c9b96](https://github.com/ridedott/eslint-plugin/commit/a5c9b961e47768f2f7653d33ce37a157d81bf50d))
+- **deps-dev:** bump @commitlint/config-conventional
+  ([680209d](https://github.com/ridedott/eslint-plugin/commit/680209dc72063d3985e31ded3469c111b4c220f2))
+- **deps-dev:** bump @ridedott/eslint-config from 2.27.44 to 2.27.46
+  ([0eec964](https://github.com/ridedott/eslint-plugin/commit/0eec96401ce6de3df12ca26db3c14ce84234ae6e))
+- **deps-dev:** bump ts-jest from 29.1.1 to 29.1.2
+  ([127b0d6](https://github.com/ridedott/eslint-plugin/commit/127b0d6d887e2eb4033cee42a37b13cfce76a71f))
+- **deps:** bump @typescript-eslint/parser from 6.19.0 to 6.19.1
+  ([4ef77b7](https://github.com/ridedott/eslint-plugin/commit/4ef77b70377e301a049a376d60bc25fe52421898))
+- **deps:** bump @typescript-eslint/utils from 6.19.0 to 6.19.1
+  ([c514103](https://github.com/ridedott/eslint-plugin/commit/c5141035ca3a606ae6064776f0f6a222261c4ff4))
+
 ## [1.7.167](https://github.com/ridedott/eslint-plugin/compare/v1.7.166...v1.7.167) (2024-01-18)
 
 ### Chores
