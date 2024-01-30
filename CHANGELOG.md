@@ -1,3 +1,20 @@
+## [1.7.169](https://github.com/ridedott/eslint-plugin/compare/v1.7.168...v1.7.169) (2024-01-30)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 18.5.0 to 18.6.0
+  ([3316e99](https://github.com/ridedott/eslint-plugin/commit/3316e99eb3d22e14d1d88d9a9031c4ed66f01129))
+- **deps-dev:** bump @commitlint/config-conventional
+  ([b5d9c02](https://github.com/ridedott/eslint-plugin/commit/b5d9c023a04607745e863b7179796635a5b040f1))
+- **deps-dev:** bump @ridedott/eslint-config from 2.27.46 to 2.27.47
+  ([d06698e](https://github.com/ridedott/eslint-plugin/commit/d06698ee2187de34d8f4e2639938349af980a723))
+- **deps-dev:** bump husky from 8.0.3 to 9.0.1
+  ([e63b400](https://github.com/ridedott/eslint-plugin/commit/e63b400c2d78d54b6b626ce97a9ac633fc508069))
+- **deps-dev:** bump husky from 9.0.1 to 9.0.6
+  ([a1066bd](https://github.com/ridedott/eslint-plugin/commit/a1066bd2dafdcb7b3ae3b71203b2859b7938d987))
+- **deps:** bump ridedott/release-me-action from 3.10.7 to 3.10.8
+  ([b170eaa](https://github.com/ridedott/eslint-plugin/commit/b170eaaf9aeed2f9d766d3c13310fd4e62a42780))
+
 ## [1.7.168](https://github.com/ridedott/eslint-plugin/compare/v1.7.167...v1.7.168) (2024-01-23)
 
 ### Chores
