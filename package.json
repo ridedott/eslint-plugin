@@ -18,7 +18,7 @@
     "commitizen": "^4.3.0",
     "cspell": "^8.3.2",
     "eslint": "^8.56.0",
-    "husky": "^9.0.7",
+    "husky": "^9.0.10",
     "jest": "^29.7.0",
     "jest-environment-node": "^29.7.0",
     "lint-staged": "^15.2.1",
