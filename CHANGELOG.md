@@ -1,3 +1,24 @@
+## [1.7.172](https://github.com/ridedott/eslint-plugin/compare/v1.7.171...v1.7.172) (2024-02-06)
+
+### Chores
+
+- **deps-dev:** bump @ridedott/eslint-config from 2.27.48 to 2.27.50
+  ([053e758](https://github.com/ridedott/eslint-plugin/commit/053e7580be2e6f962dafe09356e858387c3b31da))
+- **deps-dev:** bump @ridedott/eslint-config from 2.27.50 to 2.27.51
+  ([5c2bcfe](https://github.com/ridedott/eslint-plugin/commit/5c2bcfe2dbc1d480f545e153c38f69e8f77d3af4))
+- **deps-dev:** bump @types/jest from 29.5.11 to 29.5.12
+  ([bb35eb2](https://github.com/ridedott/eslint-plugin/commit/bb35eb2696b392a922532cecb3e6a3d183384a84))
+- **deps-dev:** bump husky from 9.0.7 to 9.0.10
+  ([7e6f413](https://github.com/ridedott/eslint-plugin/commit/7e6f41332b5e32eb2329c391ff14464dedc90aeb))
+- **deps-dev:** bump lint-staged from 15.2.0 to 15.2.1
+  ([e197818](https://github.com/ridedott/eslint-plugin/commit/e1978188fe9e622bbb1e2417e3d63e4fa8b75197))
+- **deps-dev:** bump lint-staged from 15.2.1 to 15.2.2
+  ([040ec20](https://github.com/ridedott/eslint-plugin/commit/040ec20a3219ac4f55a8902ab1494d2cc19fa01c))
+- **deps-dev:** bump prettier from 3.2.2 to 3.2.5
+  ([6e49c5f](https://github.com/ridedott/eslint-plugin/commit/6e49c5fa404f5c7fab43a4e4b779d733120e2775))
+- **deps:** bump @typescript-eslint/parser from 6.20.0 to 6.21.0
+  ([a199349](https://github.com/ridedott/eslint-plugin/commit/a199349208a7e9a310aefa27d74c04f7116c5924))
+
 ## [1.7.171](https://github.com/ridedott/eslint-plugin/compare/v1.7.170...v1.7.171) (2024-01-30)
 
 ### Chores
