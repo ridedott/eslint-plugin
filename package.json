@@ -10,7 +10,7 @@
   },
   "description": "ESLint plugin for custom rules.",
   "devDependencies": {
-    "@commitlint/cli": "^18.6.1",
+    "@commitlint/cli": "^19.0.1",
     "@commitlint/config-conventional": "^18.6.2",
     "@ridedott/eslint-config": "^2.27.65",
     "@types/jest": "^29.5.12",
