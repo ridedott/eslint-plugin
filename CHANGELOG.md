@@ -1,3 +1,14 @@
+## [1.7.182](https://github.com/ridedott/eslint-plugin/compare/v1.7.181...v1.7.182) (2024-03-07)
+
+### Chores
+
+- **deps-dev:** bump @ridedott/eslint-config from 2.27.68 to 2.27.69
+  ([d784f0e](https://github.com/ridedott/eslint-plugin/commit/d784f0eb0132e069479a2c81a37676a0e86fa6c9))
+- **deps-dev:** bump cspell from 8.5.0 to 8.6.0
+  ([00ea1a6](https://github.com/ridedott/eslint-plugin/commit/00ea1a6a92e36fe2f7f9aadb2a8fee834b1f5cb3))
+- **deps:** bump ridedott/release-me-action from 3.10.11 to 3.10.12
+  ([9144690](https://github.com/ridedott/eslint-plugin/commit/91446906aeb06eeefa224d1b4d7e504fe01ee6ae))
+
 ## [1.7.181](https://github.com/ridedott/eslint-plugin/compare/v1.7.180...v1.7.181) (2024-03-05)
 
 ### Chores
