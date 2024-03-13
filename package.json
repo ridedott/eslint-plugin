@@ -12,7 +12,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.1.0",
     "@commitlint/config-conventional": "^19.0.3",
-    "@ridedott/eslint-config": "^2.27.72",
+    "@ridedott/eslint-config": "^2.27.73",
     "@types/jest": "^29.5.12",
     "@types/node": "^18.18.2",
     "commitizen": "^4.3.0",
