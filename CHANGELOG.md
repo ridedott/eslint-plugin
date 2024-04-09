@@ -1,3 +1,12 @@
+## [1.7.193](https://github.com/ridedott/eslint-plugin/compare/v1.7.192...v1.7.193) (2024-04-09)
+
+### Chores
+
+- **deps-dev:** bump @ridedott/eslint-config from 2.27.89 to 2.27.91
+  ([939a3d2](https://github.com/ridedott/eslint-plugin/commit/939a3d24998321d0712c82cd38ed2c0718798fb4))
+- **deps:** bump @typescript-eslint/utils from 7.5.0 to 7.6.0
+  ([3cd488a](https://github.com/ridedott/eslint-plugin/commit/3cd488abd1b7c55934136aeae8a04f3378bb6152))
+
 ## [1.7.192](https://github.com/ridedott/eslint-plugin/compare/v1.7.191...v1.7.192) (2024-04-08)
 
 ### Chores
