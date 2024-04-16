@@ -1,3 +1,24 @@
+## [1.7.196](https://github.com/ridedott/eslint-plugin/compare/v1.7.195...v1.7.196) (2024-04-16)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 19.2.1 to 19.2.2
+  ([ce50d62](https://github.com/ridedott/eslint-plugin/commit/ce50d621b2ba7437cbff6142e964ad59cd5c2ff6))
+- **deps-dev:** bump @commitlint/config-conventional
+  ([91b7506](https://github.com/ridedott/eslint-plugin/commit/91b75063b6b4bcbfbe9f5272d7693b8b3cb52d1d))
+- **deps-dev:** bump @ridedott/eslint-config from 2.27.92 to 2.27.94
+  ([87549d1](https://github.com/ridedott/eslint-plugin/commit/87549d1c407924f8f3c52d6c1f5faecc560347e4))
+- **deps-dev:** bump @ridedott/eslint-config from 2.27.94 to 2.27.96
+  ([4c0e7c3](https://github.com/ridedott/eslint-plugin/commit/4c0e7c3943c9b0e5d23423aa4a86d9749df480c9))
+- **deps-dev:** bump @ridedott/eslint-config from 2.27.96 to 2.27.97
+  ([0e0fabf](https://github.com/ridedott/eslint-plugin/commit/0e0fabfdde4377ae254d30632fca110cc077fb54))
+- **deps-dev:** bump cspell from 8.6.1 to 8.7.0
+  ([a10d239](https://github.com/ridedott/eslint-plugin/commit/a10d2399653853b2b40c12edb5c58ed734061263))
+- **deps-dev:** bump typescript from 5.4.4 to 5.4.5
+  ([e0a7650](https://github.com/ridedott/eslint-plugin/commit/e0a7650ec58dbc58e1d6a20662e7eefdadf12adf))
+- **deps:** bump @typescript-eslint/utils from 7.6.0 to 7.7.0
+  ([3c48aca](https://github.com/ridedott/eslint-plugin/commit/3c48aca5571b725f26d3d1f9bfc2e37170dfd635))
+
 ## [1.7.195](https://github.com/ridedott/eslint-plugin/compare/v1.7.194...v1.7.195) (2024-04-11)
 
 ### Chores
