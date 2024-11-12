@@ -1,3 +1,11 @@
+## [1.7.205](https://github.com/ridedott/eslint-plugin/compare/v1.7.204...v1.7.205) (2024-11-12)
+
+### Chores
+
+- Update team names to refect team structure (#1654)
+  ([4a1fc31](https://github.com/ridedott/eslint-plugin/commit/4a1fc31291e2104681670e4682ad1f68ccde8642)),
+  closes [#1654](https://github.com/ridedott/eslint-plugin/issues/1654)
+
 ## [1.7.204](https://github.com/ridedott/eslint-plugin/compare/v1.7.203...v1.7.204) (2024-05-23)
 
 ### Chores
@@ -11,12 +19,17 @@
 
 ### Other
 
-- ---
-  ([3ef622a](https://github.com/ridedott/eslint-plugin/commit/3ef622a898bea718ec5ffb62e46dcc71e9ed2f76))
-- ---
-  ([5b20c10](https://github.com/ridedott/eslint-plugin/commit/5b20c10ce64bc77717422cc88a742241b5416927))
-- ---
-  ([556ac71](https://github.com/ridedott/eslint-plugin/commit/556ac7139c6ab33416d56ee2f5a49c04b8e8d4ea))
+---
+
+([3ef622a](https://github.com/ridedott/eslint-plugin/commit/3ef622a898bea718ec5ffb62e46dcc71e9ed2f76))
+
+---
+
+([5b20c10](https://github.com/ridedott/eslint-plugin/commit/5b20c10ce64bc77717422cc88a742241b5416927))
+
+---
+
+([556ac71](https://github.com/ridedott/eslint-plugin/commit/556ac7139c6ab33416d56ee2f5a49c04b8e8d4ea))
 
 ## [1.7.203](https://github.com/ridedott/eslint-plugin/compare/v1.7.202...v1.7.203) (2024-05-16)
 
