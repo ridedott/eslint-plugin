@@ -17,7 +17,7 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
       - name: Setup Node.js
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@v4.0.3
         with:
           cache: 'npm'
           node-version: 18
@@ -45,7 +45,7 @@ jobs:
               { "release": false, "subject": "*\\[skip release\\]*" }
             ]
       - name: Setup Node.js
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@v4.0.3
         with:
           registry-url: 'https://npm.pkg.github.com'
       - env:
@@ -55,7 +55,7 @@ jobs:
         run: npm publish
       - if: steps.release.outputs.released == 'true'
         name: Setup Node.js
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@v4.0.3
         with:
           registry-url: 'https://registry.npmjs.org'
           scope: '@ridedott'
